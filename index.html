@@ -1,0 +1,325 @@
+<!doctype html>
+<!-- Disclaimer: المنصة التعليمية للأمن السيبراني لأغراض تعليمية وقانونية فقط. لا نوفّر تعليمات استغلال ولا روابط غير رسمية. -->
+
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>دليل لغات البرمجة - واجهة مرتبة وبسيطة</title>
+  <meta name="description" content="واجهة عربية بسيطة ومرتبة تشرح لغات البرمجة، الاستخدامات، أمثلة التصميم، وإجراءات مضادة للهجمات." />
+  <meta name="theme-color" content="#0b0f14" />
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta http-equiv="origin-trial" content="">
+
+
+  <!-- Prism for code highlighting -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-themes@1.9.0/themes/prism-vsc-dark-plus.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+
+  <link rel="stylesheet" href="./styles.css" />
+  <!-- SW registration handled in script.js to enable update toast -->
+</head>
+<body>
+  <div class="canvas-wrap"><canvas id="matrix"></canvas></div>
+  <audio id="uiClick" preload="auto" src="https://cdn.jsdelivr.net/gh/itsrealfarhan/ui-sounds/click-03.mp3"></audio>
+  <audio id="uiOpen" preload="auto" src="https://cdn.jsdelivr.net/gh/itsrealfarhan/ui-sounds/open-01.mp3"></audio>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Tech Guide</a>
+      <nav class="nav" aria-label="التنقل الرئيسي">
+        <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="mainMenu">☰</button>
+        <ul id="mainMenu" class="menu">
+          <li><a href="#about">عن الدليل</a></li>
+          <li><a href="#languages">لغات البرمجة</a></li>
+          <li><a href="#cyber">منصة الأمن السيبراني</a></li>
+          <li><a href="#design">التصميم والواجهات</a></li>
+          <li><a href="#security">إجراءات مضادة للهكر</a></li>
+          <li><a href="#faq">الأسئلة الشائعة</a></li>
+        </ul>
+      </nav>
+      <div class="actions">
+        <button id="installBtn" class="btn" hidden>تثبيت التطبيق</button>
+        <button id="soundToggle" class="btn ghost" aria-pressed="false" title="تبديل الصوت">🔊</button>
+        <button id="themeToggle" class="btn ghost" aria-pressed="false" title="تبديل النمط">🌓</button>
+        <button id="updateBtn" class="btn ghost" title="تحديث الواجهة">⟲ تحديث</button>
+      </div>
+    </div>
+    <section class="hero container">
+      <h1>دليل لغات البرمجة</h1>
+      <p>واجهة بسيطة ومرتبة تعرّفك على أشهر لغات البرمجة، استخداماتها، وأفضل ممارسات الأمان.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#languages">ابدأ الاستكشاف</a>
+        <a class="btn" href="#security">تعزيز الأمان</a>
+        <button id="helpBtn" class="btn ghost" title="مساعدة (؟)">؟</button>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="section container">
+      <h2>عن الدليل</h2>
+      <p>
+        هذا الموقع يقدّم نظرة مرتبة ومختصرة حول لغات البرمجة الأكثر شيوعًا، مع أمثلة استخدام عملية،
+        ونصائح تصميم واجهات، بالإضافة إلى إجراءات مضادة للهجمات للمبتدئين لحماية مشاريعهم.
+      </p>
+      <div class="stats">
+        <div class="stat"><span class="num" data-target="12">0</span><span class="label">لغة مغطّاة</span></div>
+        <div class="stat"><span class="num" data-target="24">0</span><span class="label">مثال استخدام</span></div>
+        <div class="stat"><span class="num" data-target="10">0</span><span class="label">نصيحة أمان</span></div>
+      </div>
+    </section>
+
+    <section id="languages" class="section container">
+      <div class="section-header">
+        <h2>لغات البرمجة</h2>
+        <div class="tools">
+          <span id="langCountBadge" class="badge"><span class="dot"></span>0 نتائج</span>
+          <input id="search" class="input" type="search" placeholder="ابحث عن لغة (اختصار: /)" aria-label="بحث عن لغة" list="langList" />
+          <select id="domainFilter" class="input" aria-label="تصفية حسب المجال">
+            <option value="all">كل المجالات</option>
+            <option value="web">تطوير الويب</option>
+            <option value="mobile">تطبيقات الهاتف</option>
+            <option value="data">البيانات والذكاء الاصطناعي</option>
+            <option value="systems">الأنظمة والأداء العالي</option>
+            <option value="scripting">أتمتة وسكربتات</option>
+          </select>
+          <select id="sortSelect" class="input" aria-label="ترتيب النتائج">
+            <option value="name">الاسم</option>
+            <option value="level">المستوى</option>
+            <option value="domain">المجال</option>
+          </select>
+          <label class="switch">
+            <input id="favOnly" type="checkbox" />
+            <span class="slider"></span>
+            <span class="switch-label">المفضلة فقط</span>
+          </label>
+          <button id="addLangBtn" class="btn">إضافة لغة</button>
+          <button id="compareNow" class="btn" disabled>قارن الآن (اختَر لغتين)</button>
+          <button id="shareBtn" class="btn ghost">نسخ رابط المشاركة</button>
+          <button id="exportFavs" class="btn ghost">تصدير المفضلة</button>
+          <button id="importFavs" class="btn ghost">استيراد المفضلة</button>
+          <button id="resetFilters" class="btn ghost">إعادة تعيين المرشّحات</button>
+          <button id="exportCsv" class="btn ghost">تصدير النتائج CSV</button>
+          <input id="importFavsInput" type="file" accept="application/json" hidden />
+          <datalist id="langList"></datalist>
+        </div>
+        <div id="domainStats" class="domain-stats" aria-live="polite"></div>
+      </div>
+
+      <div id="cards" class="grid" aria-live="polite"></div>
+      <div id="compareDock" class="dock" hidden>
+        <div class="dock-inner container">
+          <div>المقارنة: <span id="cmpA" class="pill"></span> <span id="cmpB" class="pill"></span></div>
+          <div class="dock-actions">
+            <button id="compareOpen" class="btn primary" disabled>فتح المقارنة</button>
+            <button id="compareClear" class="btn ghost">مسح</button>
+          </div>
+        </div>
+      </div>
+
+    <section id="cyber" class="section container">
+      <h2>منصة الأمن السيبراني (تعليمي)</h2>
+      <p>هذه المنصة تجمع أدوات مفتوحة المصدر وأنظمة متخصصة للأغراض التعليمية فقط. نرفض أي استخدام غير قانوني. اقرأ القوانين المحلية قبل التجربة.</p>
+      <div class="section-header">
+        <div class="tools">
+          <input id="cyberSearch" class="input" type="search" placeholder="ابحث عن أداة/نظام/استضافة/نموذج ذكاء" aria-label="بحث في أدوات الأمن"/>
+          <select id="cyberCategory" class="input" aria-label="فئة">
+            <option value="all">كل الأقسام</option>
+            <option value="distros">توزيعات وأنظمة</option>
+            <option value="tools">أدوات</option>
+            <option value="labs">منصات ومعامل تعلم</option>
+            <option value="hosting">استضافات</option>
+            <option value="ai">نماذج ذكاء مفتوحة المصدر</option>
+          </select>
+          <select id="cyberSource" class="input" aria-label="المصدر">
+            <option value="all">كل المصادر</option>
+            <option value="official">رسمي/موثوق</option>
+            <option value="community">مجتمعي</option>
+          </select>
+          <button id="exportCyberCsv" class="btn ghost">تصدير CSV</button>
+        </div>
+      </div>
+
+          <div class="note warn" role="note" aria-live="polite" style="margin-top:.5rem">
+            تعليمات قانونية: المحتوى تعليمي فقط. نعرض روابط رسمية/مصادر موثوقة. يُحظر أي استخدام هجومي دون تصريح قانوني صريح. استخدم مختبرات مخصّصة (HTB/THM) أو أجهزة تملكها.
+          </div>
+
+
+      <div id="cyberGrid" class="grid" aria-live="polite"></div>
+
+      <div class="note">تحذير: المحتوى تعليمي. أي إساءة استخدام تقع على مسؤولية المستخدم.</div>
+    
+    <section class="section container" id="monthly">
+      <h3>تحديثات الشهر</h3>
+      <p class="note">أحدث الإضافات الرسمية والمجتمعية إلى منصة الأمن السيبراني.</p>
+      <div id="monthlyList" class="grid"></div>
+    </section>
+
+    </section>
+
+    <section id="design" class="section alt">
+      <div class="container">
+        <h2>التصميم والواجهات</h2>
+        <p>
+          تصميم واجهة مرتبة يعني وضوح التدرج البصري، تباين ألوان جيد، واهتمام بالتفاصيل الصغيرة مثل المسافات والحواف.
+          فيما يلي مبادئ سريعة ونماذج ألوان، مع ملعب حي للألوان.
+        </p>
+        <div class="design-grid">
+          <div class="card">
+            <h3>التباين والقراءة</h3>
+            <ul>
+              <li>استخدم تباينًا كافيًا بين النص والخلفية.</li>
+              <li>التزم بحجم خط مريح (16px+ للنصوص الأساسية).</li>
+              <li>لا تُكثر من الخطوط: خطان كافيان عادةً.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>تدرّج بصري واضح</h3>
+            <ul>
+              <li>عناوين كبيرة، فقرات متوسطة، تفاصيل صغيرة.</li>
+              <li>استعمل المسافات البيضاء لتقسيم المحتوى.</li>
+              <li>ثبّت شبكة Grid أو نظام 8pt للمسافات.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>لوحات ألوان مقترحة</h3>
+            <div class="palette">
+              <span class="swatch" style="--sw:#7c3aed" title="#7c3aed"></span>
+              <span class="swatch" style="--sw:#06b6d4" title="#06b6d4"></span>
+              <span class="swatch" style="--sw:#22c55e" title="#22c55e"></span>
+              <span class="swatch" style="--sw:#f59e0b" title="#f59e0b"></span>
+              <span class="swatch" style="--sw:#ef4444" title="#ef4444"></span>
+            </div>
+            <small>اختر لون أساس، ولونًا مساعدًا، ولون تحذير/نجاح.</small>
+          </div>
+          <div class="card">
+            <h3>ملعب الألوان</h3>
+            <div class="color-tools">
+              <label>الأساسي <input id="primaryColor" type="color" value="#7c3aed"></label>
+              <label>المساعد <input id="accentColor" type="color" value="#06b6d4"></label>
+              <label>الخلفية <input id="bgColor" type="color" value="#0b0f14"></label>
+            </div>
+            <div class="tools" style="margin-top:.5rem">
+              <button id="saveTheme" class="btn">حفظ الألوان</button>
+              <button id="resetTheme" class="btn ghost">إعادة التعيين</button>
+              <button id="exportTheme" class="btn ghost">تصدير</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="security" class="section container">
+      <h2>إجراءات مضادة للهكر (Countermeasures)</h2>
+      <p>
+        الأمن عملية مستمرة. فيما يلي أساسيات سريعة لحماية تطبيقاتك. للمزيد اطلع على OWASP Top 10.
+      </p>
+      <div class="security-grid">
+        <div class="card">
+          <h3>التحقق من المدخلات</h3>
+          <ul>
+            <li>لا تثق بأي مدخل من المستخدم.</li>
+            <li>استخدم التحقق من الطرف الخادمي وبنية بيانات واضحة.</li>
+            <li>استعمل عبارات مهيّأة/ORM لمنع SQL Injection.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>التوثيق والجلسات</h3>
+          <ul>
+            <li>استخدم تشفير كلمات المرور بالـ bcrypt/argon2.</li>
+            <li>فعّل 2FA عند الإمكان.</li>
+            <li>اضبط عمر الجلسة وعلّم الكوكيز HttpOnly + Secure.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>النقل والتخزين</h3>
+          <ul>
+            <li>استخدم HTTPS دائمًا.</li>
+            <li>شفّر البيانات الحساسة في الراحة (at rest).</li>
+            <li>طبّق مبدأ أقل صلاحية (Least Privilege).</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>التحديث والمراقبة</h3>
+          <ul>
+            <li>حدّث الاعتمادات بانتظام.</li>
+            <li>تتبّع السجلات والتنبيهات.</li>
+            <li>اختبارات اختراق دورية وفحص ثغرات تلقائي.</li>
+          </ul>
+          <div class="tools">
+            <button id="copySecurity" class="btn">نسخ قائمة الفحص</button>
+          </div>
+        </div>
+      </div>
+      <div class="note">
+        ملاحظة: هذا الدليل تعليمي، ليس بديلاً عن مراجعة أمنية متخصصة.
+      </div>
+    </section>
+
+    <section id="faq" class="section alt">
+      <div class="container">
+        <h2>الأسئلة الشائعة</h2>
+        <details class="card">
+          <summary>أي لغة أبدأ بها؟</summary>
+          <p>ابدأ بلغة سهلة ومنتشرة مثل Python أو JavaScript، ثم انتقل لمجالات متخصصة حسب اهتمامك.</p>
+        </details>
+        <details class="card">
+          <summary>هل أحتاج الرياضيات؟</summary>
+          <p>ليس دائمًا. لتعلم الأساسيات لا تحتاج الكثير. لمجالات مثل الذكاء الاصطناعي تتطلب رياضيات أكثر.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> دليل لغات البرمجة. جميع الحقوق محفوظة.</p>
+      <a href="#about">العودة للأعلى ↑</a>
+    </div>
+  </footer>
+
+  <!-- Modals -->
+  <div id="modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close="modal"></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close="modal" aria-label="إغلاق">✕</button>
+      <h3 id="modalTitle"></h3>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <div id="compareModal" class="modal" hidden>
+    <div class="modal-backdrop" data-close="compare"></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="compareTitle">
+      <button class="modal-close" data-close="compare" aria-label="إغلاق">✕</button>
+      <h3 id="compareTitle">مقارنة اللغات</h3>
+      <div id="compareBody"></div>
+    </div>
+  </div>
+
+  <div id="helpModal" class="modal" hidden>
+    <div class="modal-backdrop" data-close="help"></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
+      <button class="modal-close" data-close="help" aria-label="إغلاق">✕</button>
+      <h3 id="helpTitle">مساعدة واختصارات</h3>
+      <ul>
+        <li>/ للتركيز على البحث</li>
+        <li>t لتبديل النمط</li>
+        <li>g للذهاب إلى قسم اللغات</li>
+        <li>? لفتح هذه النافذة</li>
+      </ul>
+    </div>
+  </div>
+  <button id="toTop" class="to-top" hidden>↑</button>
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
