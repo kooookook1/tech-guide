@@ -125,22 +125,55 @@ const CYBER = [
   {type:'hosting', name:'Vercel', desc:'استضافة تطبيقات ويب وحدات مجانية.', link:'https://vercel.com/', vendor:'Vercel'},
   {type:'hosting', name:'Netlify', desc:'استضافة مواقع ستاتيكية ومزايا مجانية.', link:'https://www.netlify.com/', vendor:'Netlify'},
   {type:'hosting', name:'GitHub Pages', desc:'استضافة صفحات مباشرة من مستودعك.', link:'https://pages.github.com/', vendor:'GitHub'},
-  // Open-source AI models
+  // Open-source AI models (موسّعة)
   {type:'ai', name:'Stable Diffusion', desc:'نموذج توليد صور مفتوح المصدر.', link:'https://github.com/CompVis/stable-diffusion', vendor:'CompVis'},
-  {type:'ai', name:'Llama', desc:'نماذج لغوية من Meta (تراخيص مختلفة).', link:'https://ai.meta.com/llama/', vendor:'Meta'},
-  {type:'ai', name:'Mistral', desc:'نماذج لغوية مفتوحة المصدر.', link:'https://mistral.ai/', vendor:'Mistral AI'},
+  {type:'ai', name:'Llama 3.1', desc:'نماذج لغوية من Meta (أحجام متعددة).', link:'https://ai.meta.com/llama/', vendor:'Meta', ts: Date.now()},
+  {type:'ai', name:'Mistral 7B', desc:'نموذج خفيف وعالي الجودة.', link:'https://mistral.ai/', vendor:'Mistral AI', ts: Date.now()},
+  {type:'ai', name:'Mixtral 8x7B', desc:'Mixture of Experts مفتوح.', link:'https://mistral.ai/news/mixtral-of-experts/', vendor:'Mistral AI', ts: Date.now()},
+  {type:'ai', name:'Gemma 2', desc:'نماذج لغوية من Google.', link:'https://ai.google.dev/gemma', vendor:'Google', ts: Date.now()},
+  {type:'ai', name:'Phi-3', desc:'نماذج خفيفة من Microsoft.', link:'https://www.microsoft.com/research/project/phi-3/', vendor:'Microsoft', ts: Date.now()},
+  {type:'ai', name:'Qwen2', desc:'سلسلة نماذج من Alibaba.', link:'https://github.com/QwenLM/Qwen2', vendor:'QwenLM', ts: Date.now()},
+  {type:'ai', name:'Qwen2-VL', desc:'نماذج متعددة الوسائط.', link:'https://github.com/QwenLM/Qwen2-VL', vendor:'QwenLM', ts: Date.now()},
+  {type:'ai', name:'DeepSeek-V2', desc:'نماذج فعّالة مفتوحة.', link:'https://github.com/deepseek-ai/DeepSeek-V2', vendor:'DeepSeek', ts: Date.now()},
+  {type:'ai', name:'Code Llama', desc:'نماذج توليد كود.', link:'https://github.com/facebookresearch/codellama', vendor:'Meta', ts: Date.now()},
+  {type:'ai', name:'StarCoder2', desc:'نماذج كود من BigCode.', link:'https://huggingface.co/bigcode/starcoder2-15b', vendor:'BigCode', ts: Date.now()},
+  {type:'ai', name:'Falcon 180B', desc:'نماذج من TII UAE.', link:'https://falconllm.tii.ae/', vendor:'TII UAE', ts: Date.now()},
+  {type:'ai', name:'BLOOM', desc:'نموذج متعدد اللغات (BigScience).', link:'https://huggingface.co/bigscience/bloom', vendor:'BigScience', ts: Date.now()},
+  {type:'ai', name:'TinyLlama', desc:'نموذج صغير سريع.', link:'https://github.com/jzhang38/TinyLlama', vendor:'TinyLlama', ts: Date.now()},
+  {type:'ai', name:'RWKV', desc:'بنية بديلة فعّالة للذاكرة.', link:'https://github.com/RWKV/RWKV-LM', vendor:'RWKV', ts: Date.now()},
+  {type:'ai', name:'LLaVA', desc:'نماذج رؤية-نص متعددة الوسائط.', link:'https://github.com/haotian-liu/LLaVA', vendor:'LLaVA', ts: Date.now()},
+  {type:'ai', name:'MiniCPM', desc:'نماذج خفيفة متعددة الوسائط.', link:'https://github.com/OpenBMB/MiniCPM', vendor:'OpenBMB', ts: Date.now()},
+  {type:'ai', name:'InternLM', desc:'نماذج من Shanghai AI Lab.', link:'https://github.com/InternLM/InternLM', vendor:'Shanghai AI Lab', ts: Date.now()},
+  {type:'ai', name:'MPT-7B', desc:'نماذج من MosaicML.', link:'https://www.mosaicml.com/blog/mpt-7b', vendor:'MosaicML', ts: Date.now()},
+  {type:'ai', name:'Dolly v2', desc:'نموذج تعليمات مفتوح.', link:'https://github.com/databrickslabs/dolly', vendor:'Databricks', ts: Date.now()},
+  {type:'ai', name:'Pythia', desc:'سلسلة نماذج من EleutherAI.', link:'https://github.com/EleutherAI/pythia', vendor:'EleutherAI', ts: Date.now()},
+  {type:'ai', name:'Stable LM 2', desc:'نماذج لغة من Stability.', link:'https://stability.ai/news/stable-lm-2', vendor:'Stability AI', ts: Date.now()},
   {type:'ai', name:'Whisper', desc:'تعرف صوتي من OpenAI مفتوح المصدر.', link:'https://github.com/openai/whisper', vendor:'OpenAI'},
+  {type:'ai', name:'DeepSeek-Coder', desc:'نماذج ترميز مفتوحة.', link:'https://github.com/deepseek-ai/DeepSeek-Coder', vendor:'DeepSeek', ts: Date.now()},
+
+  // توزيعات وأنظمة (روابط رسمية مباشرة حيث أمكن)
   {type:'distros', name:'Ubuntu Desktop 24.04 LTS', desc:'توزيعة لينكس للمستخدمين، دعم طويل.', link:'https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso', vendor:'Canonical', dl:'direct'},
   {type:'distros', name:'Fedora Workstation 40', desc:'لينكس حديث للمطورين.', link:'https://download.fedoraproject.org/pub/fedora/linux/releases/40/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-40-1.14.iso', vendor:'Fedora', dl:'direct'},
   {type:'distros', name:'Windows 11 (رابط رسمي)', desc:'تنزيل من مايكروسوفت (ملف ISO).', link:'https://www.microsoft.com/software-download/windows11', vendor:'Microsoft'},
   {type:'distros', name:'Windows 10 (رابط رسمي)', desc:'تنزيل أداة أو ISO رسمي.', link:'https://www.microsoft.com/software-download/windows10', vendor:'Microsoft'},
+
+  // أدوات إضافية للذكاء الاصطناعي (محركات/واجهات)
+  {type:'tools', name:'llama.cpp', desc:'تشغيل نماذج LLM محليًا على CPU/GPU.', link:'https://github.com/ggerganov/llama.cpp', vendor:'ggerganov'},
+  {type:'tools', name:'vLLM', desc:'محرك استدلال سريع وفعّال.', link:'https://github.com/vllm-project/vllm', vendor:'vLLM'},
+  {type:'tools', name:'text-generation-webui', desc:'واجهة ويب لتشغيل النماذج محليًا.', link:'https://github.com/oobabooga/text-generation-webui', vendor:'oobabooga'},
+  {type:'tools', name:'Ollama', desc:'تنزيل وتشغيل نماذج محليًا بسهولة.', link:'https://github.com/ollama/ollama', vendor:'Ollama'},
+  {type:'tools', name:'Open WebUI', desc:'واجهة ويب ذاتية لنماذج محلية/بعيدة.', link:'https://github.com/open-webui/open-webui', vendor:'Open WebUI'},
+  {type:'tools', name:'KoboldCpp', desc:'تشغيل نماذج للدردشة/القصص.', link:'https://github.com/LostRuins/koboldcpp', vendor:'KoboldCpp'},
+  {type:'tools', name:'GPT4All', desc:'منصة نماذج محلية متعددة.', link:'https://github.com/nomic-ai/gpt4all', vendor:'Nomic AI'},
+  {type:'tools', name:'Tabby', desc:'مكمّل كود ذاتي مستضاف.', link:'https://github.com/TabbyML/tabby', vendor:'TabbyML'},
+
+  // أدوات أمنية عامة (موجودة سابقًا)
   {type:'tools', name:'gh (GitHub CLI)', desc:'سطر أوامر للتعامل مع GitHub.', link:'https://github.com/cli/cli', vendor:'GitHub'},
   {type:'tools', name:'Actions Runner', desc:'مشغّل GitHub Actions ذاتي.', link:'https://github.com/actions/runner', vendor:'GitHub'},
   {type:'tools', name:'CodeQL', desc:'تحليل أمني للشفرة من GitHub.', link:'https://github.com/github/codeql', vendor:'GitHub'},
   {type:'tools', name:'Trivy', desc:'فاحص ثغرات للحاويات والكود.', link:'https://github.com/aquasecurity/trivy', vendor:'Aqua Security'},
   {type:'tools', name:'ZAP (OWASP)', desc:'ماسح أمان تطبيقات ويب مفتوح.', link:'https://www.zaproxy.org/download/', vendor:'OWASP'},
-  {type:'ai', name:'OpenDevin', desc:'نماذج/وكلاء برمجة مفتوحة.', link:'https://github.com/OpenDevin/OpenDevin', vendor:'OpenDevin'},
-  {type:'ai', name:'DeepSeek-Coder', desc:'نماذج ترميز مفتوحة.', link:'https://github.com/deepseek-ai/DeepSeek-Coder', vendor:'DeepSeek'},
+
 
   // Labs / learning platforms (قانونية وتعليمية)
   {type:'labs', name:'Hack The Box (Academy)', desc:'تعلم عملي على منصات افتراضية قانونية.', link:'https://academy.hackthebox.com/', vendor:'HTB'},
@@ -231,7 +264,7 @@ function renderCyber(page=1){
       <p>${it.desc}</p>
       <div class="meta"><span>الناشر: ${it.vendor||'-'}</span><span class="dot"></span><span class="badge" title="المصدر">${(it.src||'official')==='community'?'مجتمعي':'رسمي'}</span></div>
       <div class="tools" style="margin-top:.5rem">
-        <a class="btn primary" href="${it.link}" ${isDownload?'download':''} target="_blank" rel="noopener">${btnLabel}</a>
+        <a class="btn primary" href="${it.link}" target="_blank" rel="noopener noreferrer">${btnLabel}</a>
         <button class="btn ghost" data-info>معلومات</button>
       </div>`;
     card.querySelector('[data-info]')?.addEventListener('click', ()=>{
