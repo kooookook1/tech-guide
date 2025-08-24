@@ -70,7 +70,7 @@ body::before{
 }
 @keyframes scan{0%{background-position:0 0,0 0,0 0}100%{background-position:0 200px,0 0,0 0}}
 
-.container{width:min(1100px,92%);margin-inline:auto;position:relative;z-index:1}
+.container{width:min(1200px,96%);margin-inline:auto;position:relative;z-index:1}
 
 .site-header{
   background:
@@ -169,6 +169,25 @@ html{font-size:18px}
 
 .to-top{position:fixed;bottom:1rem;left:1rem;padding:.5rem .65rem;border-radius:.6rem;border:1px solid var(--border);background:var(--surface);color:var(--text);box-shadow:var(--shadow)}
 .to-top[hidden]{display:none}
+
+
+/* Tighten card spacing and center content more for laptops/phones */
+.section .grid{align-items:stretch}
+.card h3{margin-top:.3rem}
+.card p{margin:.35rem 0 .6rem}
+
+/* Improve mobile paddings and reduce side empty spaces */
+@media (max-width: 480px){
+  .container{width:min(100%,96%)}
+  .section{padding:2rem 0}
+  .card{padding:1rem}
+  .nav .menu{right:2%;}
+}
+
+/* Larger readable text on laptops while avoiding huge whitespace */
+@media (min-width: 1200px){
+  html{font-size:19px}
+}
 
 .toast{position:fixed;bottom:1rem;right:1rem;background:var(--card);color:var(--text);border:1px solid var(--border);padding:.6rem .8rem;border-radius:.6rem;box-shadow:var(--shadow)}
 .toast[hidden]{display:none}
