@@ -1,4 +1,4 @@
-const CACHE = 'tg-static-v4';
+const CACHE = 'tg-static-v5';
 const CDN_CACHE = 'tg-cdn-v1';
 const ASSETS = [
   '.',
