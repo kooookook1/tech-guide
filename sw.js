@@ -33,7 +33,7 @@ self.addEventListener('fetch', (e)=>{
         return res;
       }catch(err){
         const cached = await caches.match(e.request);
-        return cached || caches.match('/index.html');
+        return cached || caches.match('./index.html');
       }
     })());
   } else if (CDN_HOSTS.includes(url.hostname)) {
