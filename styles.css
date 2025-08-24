@@ -105,7 +105,7 @@ body::before{
 .btn{background:var(--surface);color:var(--text);border:1px solid var(--border);padding:.6rem 1rem;border-radius:.6rem;cursor:pointer;transition:.2s box-shadow,.2s transform;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem}
 .btn:hover{box-shadow:var(--shadow);transform:translateY(-1px)}
 .btn.primary{background:linear-gradient(135deg,var(--primary),var(--accent));border-color:transparent}
-.btn.ghost{background:transparent;border:1px dashed var(--border)}
+.btn.ghost{background:transparent;border:1px solid var(--border)}
 
 .section{padding:3rem 0}
 .section.alt{background:linear-gradient(180deg,var(--surface),transparent)}
