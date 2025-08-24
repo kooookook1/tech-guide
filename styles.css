@@ -92,10 +92,15 @@ body::before{
   .nav .menu.open{display:flex}
 }
 
-.hero{padding:3rem 0 2rem}
-.hero h1{font-size:clamp(28px,5vw,42px);margin:0 0 .5rem}
-.hero p{margin:0 0 1.25rem;color:var(--muted)}
-.hero h1, h2, h3, h4 { text-shadow: 0 0 18px rgba(57,255,20,.25); }
+/* Hero readability panel */
+.site-header .hero{background:rgba(5,12,8,.78);border:1px solid var(--border);border-radius:1rem;padding:1.25rem;box-shadow:var(--shadow)}
+.site-header .hero p{color:var(--text)}
+/* Reduce excessive glow for better legibility */
+.hero h1, h2, h3, h4 { text-shadow:none }
+
+.hero{padding:2.25rem 0 1.5rem}
+.hero h1{font-size:clamp(28px,5vw,40px);margin:0 0 .4rem}
+.hero p{margin:0 0 1rem;color:var(--text)}
 .btn.primary{ border:1px solid rgba(57,255,20,.35); }
 .card h3{ color: var(--text); }
 .card p{ color: var(--muted); }
