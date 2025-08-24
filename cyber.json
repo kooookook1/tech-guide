@@ -1,1 +1,2338 @@
-[]
+[
+  {
+    "type": "tools",
+    "name": "Nmap",
+    "desc": "ماسح منافذ وشبكات.",
+    "link": "https://nmap.org/",
+    "vendor": "Insecure.Org",
+    "src": "official"
+  },
+  {
+    "type": "tools",
+    "name": "Wireshark",
+    "desc": "تحليل حزم الشبكة.",
+    "link": "https://www.wireshark.org/",
+    "vendor": "Wireshark",
+    "src": "official"
+  },
+  {
+    "type": "tools",
+    "name": "Metasploit Framework",
+    "desc": "إطار اختبار ثغرات (تعليمي).",
+    "link": "https://www.metasploit.com/",
+    "vendor": "Rapid7",
+    "src": "official"
+  },
+  {
+    "type": "tools",
+    "name": "OWASP ZAP",
+    "desc": "ماسح أمان تطبيقات ويب مفتوح.",
+    "link": "https://www.zaproxy.org/download/",
+    "vendor": "OWASP",
+    "src": "official"
+  },
+  {
+    "type": "tools",
+    "name": "Awesome-Hacking",
+    "desc": "أداة أمنية. وصف: A collection of various awesome lists for hackers, pentesters and security researchers",
+    "link": "https://github.com/Hack-with-Github/Awesome-Hacking",
+    "vendor": "Hack-with-Github",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "PayloadsAllTheThings",
+    "desc": "أداة أمنية. وصف: A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+    "link": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+    "vendor": "swisskyrepo",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "h4cker",
+    "desc": "تحليل جنائي (DFIR). وصف: This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.",
+    "link": "https://github.com/The-Art-of-Hacking/h4cker",
+    "vendor": "The-Art-of-Hacking",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Awesome-Hacking-Resources",
+    "desc": "أداة أمنية. وصف: A collection of hacking / penetration testing resources to make you better!",
+    "link": "https://github.com/vitalysim/Awesome-Hacking-Resources",
+    "vendor": "vitalysim",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "hacker-roadmap",
+    "desc": "أداة أمنية. وصف: A collection of hacking tools, resources and references to practice ethical hacking.",
+    "link": "https://github.com/sundowndev/hacker-roadmap",
+    "vendor": "sundowndev",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "dirsearch",
+    "desc": "ماسح وفحص. وصف: Web path scanner",
+    "link": "https://github.com/maurosoria/dirsearch",
+    "vendor": "maurosoria",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "awesome-web-security",
+    "desc": "أداة أمنية. وصف: 🐶 A curated list of Web Security materials and resources.",
+    "link": "https://github.com/qazbnm456/awesome-web-security",
+    "vendor": "qazbnm456",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Osintgram",
+    "desc": "جمع معلومات (OSINT). وصف: Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname",
+    "link": "https://github.com/Datalux/Osintgram",
+    "vendor": "Datalux",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "thc-hydra",
+    "desc": "أداة أمنية. وصف: hydra",
+    "link": "https://github.com/vanhauser-thc/thc-hydra",
+    "vendor": "vanhauser-thc",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "nishang",
+    "desc": "أداة أمنية. وصف: Nishang - Offensive PowerShell for red team, penetration testing and offensive security.",
+    "link": "https://github.com/samratashok/nishang",
+    "vendor": "samratashok",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Sn1per",
+    "desc": "أداة أمنية. وصف: Attack Surface Management Platform",
+    "link": "https://github.com/1N3/Sn1per",
+    "vendor": "1N3",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "PentestGPT",
+    "desc": "أداة أمنية. وصف: A GPT-empowered penetration testing tool",
+    "link": "https://github.com/GreyDGL/PentestGPT",
+    "vendor": "GreyDGL",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Scanners-Box",
+    "desc": "ماسح وفحص. وصف: A powerful and open-source toolkit for hackers and security automation - 安全行业从业者自研开源扫描器合辑",
+    "link": "https://github.com/We5ter/Scanners-Box",
+    "vendor": "We5ter",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "wstg",
+    "desc": "أداة أمنية. وصف: The Web Security Testing Guide is a comprehensive Open Source guide to testing the security of web applications and web services.",
+    "link": "https://github.com/OWASP/wstg",
+    "vendor": "OWASP",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "rengine",
+    "desc": "جمع معلومات (OSINT). وصف: reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reN",
+    "link": "https://github.com/yogeshojha/rengine",
+    "vendor": "yogeshojha",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "commando-vm",
+    "desc": "أداة أمنية. وصف: Complete Mandiant Offensive VM (Commando VM), a fully customizable Windows-based pentesting virtual machine distribution. commandovm@mandiant.com",
+    "link": "https://github.com/mandiant/commando-vm",
+    "vendor": "mandiant",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "RedTeam-Tools",
+    "desc": "أداة أمنية. وصف: Tools and Techniques for Red Team / Penetration Testing",
+    "link": "https://github.com/A-poc/RedTeam-Tools",
+    "vendor": "A-poc",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "cve",
+    "desc": "أداة أمنية. وصف: Gather and update all available and newest CVEs with their PoC.",
+    "link": "https://github.com/trickest/cve",
+    "vendor": "trickest",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Penetration_Testing_POC",
+    "desc": "أداة أمنية. وصف: 渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing python-script poc getshell csrf xss cms php-getshell domainmod-xss csrf-webshell cobub-razor cve rce sql sql-poc poc-exp bypass oa-getshell cve-cms",
+    "link": "https://github.com/Mr-xn/Penetration_Testing_POC",
+    "vendor": "Mr-xn",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "monkey",
+    "desc": "أداة أمنية. وصف: Infection Monkey - An open-source adversary emulation platform",
+    "link": "https://github.com/guardicore/monkey",
+    "vendor": "guardicore",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "reconftw",
+    "desc": "جمع معلومات (OSINT). وصف: reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
+    "link": "https://github.com/six2dez/reconftw",
+    "vendor": "six2dez",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "awesome-shodan-queries",
+    "desc": "أداة أمنية. وصف: 🔍 A collection of interesting, funny, and depressing search queries to plug into shodan.io 👩‍💻",
+    "link": "https://github.com/jakejarvis/awesome-shodan-queries",
+    "vendor": "jakejarvis",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "AllAboutBugBounty",
+    "desc": "أداة أمنية. وصف: All about bug bounty (bypasses, payloads, and etc)",
+    "link": "https://github.com/daffainfo/AllAboutBugBounty",
+    "vendor": "daffainfo",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "awesome-web-hacking",
+    "desc": "أداة أمنية. وصف: A list of web application security",
+    "link": "https://github.com/infoslack/awesome-web-hacking",
+    "vendor": "infoslack",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Active-Directory-Exploitation-Cheat-Sheet",
+    "desc": "أداة أمنية. وصف: A cheat sheet that contains common enumeration and attack methods for Windows Active Directory.",
+    "link": "https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet",
+    "vendor": "S1ckB0y1337",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Hacking-Security-Ebooks",
+    "desc": "أداة أمنية. وصف: Top 100 Hacking & Security E-Books (Free Download)",
+    "link": "https://github.com/yeahhub/Hacking-Security-Ebooks",
+    "vendor": "yeahhub",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "WhatWeb",
+    "desc": "ماسح وفحص. وصف: Next generation web scanner",
+    "link": "https://github.com/urbanadventurer/WhatWeb",
+    "vendor": "urbanadventurer",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "faraday",
+    "desc": "أداة أمنية. وصف: Open Source Vulnerability Management Platform",
+    "link": "https://github.com/infobyte/faraday",
+    "vendor": "infobyte",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "osmedeus",
+    "desc": "أداة أمنية. وصف: A Workflow Engine for Offensive Security",
+    "link": "https://github.com/j3ssie/osmedeus",
+    "vendor": "j3ssie",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Infosec_Reference",
+    "desc": "أداة أمنية. وصف: An Information Security Reference That Doesn't Suck; https://rmusser.net/git/admin-2/Infosec_Reference for non-MS Git hosted version.",
+    "link": "https://github.com/rmusser01/Infosec_Reference",
+    "vendor": "rmusser01",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "awesome-infosec",
+    "desc": "أداة أمنية. وصف: A curated list of awesome infosec courses and training resources.",
+    "link": "https://github.com/onlurking/awesome-infosec",
+    "vendor": "onlurking",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "PhoneSploit-Pro",
+    "desc": "أداة أمنية. وصف: An all-in-one hacking tool to remotely exploit Android devices using ADB and Metasploit-Framework to get a Meterpreter session.",
+    "link": "https://github.com/AzeemIdrisi/PhoneSploit-Pro",
+    "vendor": "AzeemIdrisi",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Cheatsheet-God",
+    "desc": "أداة أمنية. وصف: Penetration Testing Reference Bank - OSCP / PTP & PTX  Cheatsheet",
+    "link": "https://github.com/OlivierLaflamme/Cheatsheet-God",
+    "vendor": "OlivierLaflamme",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Learn-Web-Hacking",
+    "desc": "أداة أمنية. وصف: Study Notes For Web Hacking / Web安全学习笔记",
+    "link": "https://github.com/LyleMi/Learn-Web-Hacking",
+    "vendor": "LyleMi",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "pacu",
+    "desc": "أداة أمنية. وصف: The AWS exploitation framework, designed for testing the security of Amazon Web Services environments.",
+    "link": "https://github.com/RhinoSecurityLabs/pacu",
+    "vendor": "RhinoSecurityLabs",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "cameradar",
+    "desc": "أداة أمنية. وصف: Cameradar hacks its way into RTSP videosurveillance cameras",
+    "link": "https://github.com/Ullaakut/cameradar",
+    "vendor": "Ullaakut",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Free-Security-eBooks",
+    "desc": "أداة أمنية. وصف: Free Security and Hacking eBooks",
+    "link": "https://github.com/Hack-with-Github/Free-Security-eBooks",
+    "vendor": "Hack-with-Github",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Nettacker",
+    "desc": "ماسح وفحص. وصف: Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management",
+    "link": "https://github.com/OWASP/Nettacker",
+    "vendor": "OWASP",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "AllHackingTools",
+    "desc": "أداة أمنية. وصف: All-in-One Hacking Tools For Hackers! And more hacking tools! For termux.",
+    "link": "https://github.com/mishakorzik/AllHackingTools",
+    "vendor": "mishakorzik",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "lscript",
+    "desc": "أداة أمنية. وصف: The LAZY script will make your life easier, and of course faster.",
+    "link": "https://github.com/arismelachroinos/lscript",
+    "vendor": "arismelachroinos",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Villain",
+    "desc": "هندسة عكسية. وصف: Villain is a high level stage 0/1 C2 framework that can handle multiple reverse TCP & HoaxShell-based shells, enhance their functionality with additional features (commands, utilities) and share them among connected sibling servers (Villain instances running on different machines).",
+    "link": "https://github.com/t3l3machus/Villain",
+    "vendor": "t3l3machus",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "awesome-pentest-cheat-sheets",
+    "desc": "أداة أمنية. وصف: Collection of the cheat sheets useful for pentesting",
+    "link": "https://github.com/coreb1t/awesome-pentest-cheat-sheets",
+    "vendor": "coreb1t",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "awesome-termux-hacking",
+    "desc": "أداة أمنية. وصف: ⚡️An awesome list of the best Termux hacking tools",
+    "link": "https://github.com/may215/awesome-termux-hacking",
+    "vendor": "may215",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "afrog",
+    "desc": "أداة أمنية. وصف: A Security Tool for Bug Bounty, Pentest and Red Teaming.",
+    "link": "https://github.com/zan8in/afrog",
+    "vendor": "zan8in",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "arachni",
+    "desc": "ماسح وفحص. وصف: Web Application Security Scanner Framework",
+    "link": "https://github.com/Arachni/arachni",
+    "vendor": "Arachni",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "vulscan",
+    "desc": "ماسح وفحص. وصف: Advanced vulnerability scanning with Nmap NSE",
+    "link": "https://github.com/scipag/vulscan",
+    "vendor": "scipag",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "awesome-hacking",
+    "desc": "أداة أمنية. وصف: Awesome hacking is an awesome collection of hacking tools.",
+    "link": "https://github.com/jekil/awesome-hacking",
+    "vendor": "jekil",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "OSCP",
+    "desc": "أداة أمنية. وصف: OSCP Cheat Sheet",
+    "link": "https://github.com/0xsyr0/OSCP",
+    "vendor": "0xsyr0",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "hoaxshell",
+    "desc": "هندسة عكسية. وصف: A Windows reverse shell payload generator and handler that abuses the http(s) protocol to establish a beacon-like reverse shell.",
+    "link": "https://github.com/t3l3machus/hoaxshell",
+    "vendor": "t3l3machus",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "awesome-oscp",
+    "desc": "أداة أمنية. وصف: A curated list of awesome OSCP resources",
+    "link": "https://github.com/0x4D31/awesome-oscp",
+    "vendor": "0x4D31",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "NoSQLMap",
+    "desc": "أداة أمنية. وصف: Automated NoSQL database enumeration and web application exploitation tool.",
+    "link": "https://github.com/codingo/NoSQLMap",
+    "vendor": "codingo",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Ethical-Hacking-Labs",
+    "desc": "أداة أمنية. وصف: Practical Ethical Hacking Labs 🗡🛡",
+    "link": "https://github.com/Samsar4/Ethical-Hacking-Labs",
+    "vendor": "Samsar4",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "malicious-pdf",
+    "desc": "أداة أمنية. وصف: 💀 Generate a bunch of malicious pdf files with phone-home functionality. Can be used with Burp Collaborator or Interact.sh",
+    "link": "https://github.com/jonaslejon/malicious-pdf",
+    "vendor": "jonaslejon",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "emba",
+    "desc": "أداة أمنية. وصف: EMBA - The firmware security analyzer",
+    "link": "https://github.com/e-m-b-a/emba",
+    "vendor": "e-m-b-a",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "awesome-ethical-hacking-resources",
+    "desc": "أداة أمنية. وصف: 😎 🔗 Awesome list about all kinds of resources for learning Ethical Hacking and Penetration Testing.",
+    "link": "https://github.com/husnainfareed/awesome-ethical-hacking-resources",
+    "vendor": "husnainfareed",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Penetration-Testing-Tools",
+    "desc": "أداة أمنية. وصف: A collection of more than 170+ tools, scripts, cheatsheets and other loots that I've developed over years for Red Teaming/Pentesting/IT Security audits purposes.",
+    "link": "https://github.com/mgeeky/Penetration-Testing-Tools",
+    "vendor": "mgeeky",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Awesome-Cybersecurity-Handbooks",
+    "desc": "أداة أمنية. وصف: A huge chunk of my personal notes since I started playing CTFs and working as a Red Teamer.",
+    "link": "https://github.com/0xsyr0/Awesome-Cybersecurity-Handbooks",
+    "vendor": "0xsyr0",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "the_cyber_plumbers_handbook",
+    "desc": "ماسح وفحص. وصف: Free copy of The Cyber Plumber's Handbook - The definitive guide to Secure Shell (SSH) tunneling, port redirection, and bending traffic like a boss.",
+    "link": "https://github.com/opsdisk/the_cyber_plumbers_handbook",
+    "vendor": "opsdisk",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "cariddi",
+    "desc": "ماسح وفحص. وصف: Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more",
+    "link": "https://github.com/edoardottt/cariddi",
+    "vendor": "edoardottt",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "pentest-guide",
+    "desc": "أداة أمنية. وصف: Penetration tests guide based on OWASP including test cases, resources and examples.",
+    "link": "https://github.com/Voorivex/pentest-guide",
+    "vendor": "Voorivex",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "slowloris",
+    "desc": "أداة أمنية. وصف: Low bandwidth DoS tool. Slowloris rewrite in Python.",
+    "link": "https://github.com/gkbrk/slowloris",
+    "vendor": "gkbrk",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Active-Directory-Exploitation-Cheat-Sheet",
+    "desc": "أداة أمنية. وصف: A cheat sheet that contains common enumeration and attack methods for Windows Active Directory.",
+    "link": "https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet",
+    "vendor": "Integration-IT",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "pwndoc",
+    "desc": "ماسح وفحص. وصف: Pentest Report Generator",
+    "link": "https://github.com/pwndoc/pwndoc",
+    "vendor": "pwndoc",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Astra",
+    "desc": "أداة أمنية. وصف: Automated Security Testing For REST API's",
+    "link": "https://github.com/flipkart-incubator/Astra",
+    "vendor": "flipkart-incubator",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "OSCPRepo",
+    "desc": "جمع معلومات (OSINT). وصف: A list of commands, scripts, resources, and more that I have gathered and attempted to consolidate for use as OSCP (and more) study material. Commands in 'Usefulcommands' Keepnote. Bookmarks and reading material in 'BookmarkList' CherryTree. Reconscan Py2 and Py3. Custom ISO building.",
+    "link": "https://github.com/rewardone/OSCPRepo",
+    "vendor": "rewardone",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Exegol",
+    "desc": "أداة أمنية. وصف: Fully featured and community-driven hacking environment",
+    "link": "https://github.com/ThePorgs/Exegol",
+    "vendor": "ThePorgs",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Web-Fuzzing-Box",
+    "desc": "تفجير مدخلات. وصف: Web Fuzzing Box - Web 模糊测试字典与一些Payloads",
+    "link": "https://github.com/gh0stkey/Web-Fuzzing-Box",
+    "vendor": "gh0stkey",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "masvs",
+    "desc": "أداة أمنية. وصف: The OWASP MASVS (Mobile Application Security Verification Standard) is the industry standard for mobile app security.",
+    "link": "https://github.com/OWASP/masvs",
+    "vendor": "OWASP",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "hackingthe.cloud",
+    "desc": "أداة أمنية. وصف: An encyclopedia for offensive and defensive security knowledge in cloud native technologies.",
+    "link": "https://github.com/Hacking-the-Cloud/hackingthe.cloud",
+    "vendor": "Hacking-the-Cloud",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "EasY_HaCk",
+    "desc": "أداة أمنية. وصف: Hack the World using Termux",
+    "link": "https://github.com/sabri-zaki/EasY_HaCk",
+    "vendor": "sabri-zaki",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "vulnerable-AD",
+    "desc": "أداة أمنية. وصف: Create a vulnerable active directory that's allowing you to test most of the active directory attacks in a local lab",
+    "link": "https://github.com/safebuffer/vulnerable-AD",
+    "vendor": "safebuffer",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Reconnoitre",
+    "desc": "جمع معلومات (OSINT). وصف: A security tool for multithreaded information gathering and service enumeration whilst building directory structures to store results, along with writing out recommendations for further testing.",
+    "link": "https://github.com/codingo/Reconnoitre",
+    "vendor": "codingo",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "sysreptor",
+    "desc": "ماسح وفحص. وصف: A customizable and powerful penetration testing reporting platform for offensive security professionals. Simplify, customize, and automate your pentest reports with ease.",
+    "link": "https://github.com/Syslifters/sysreptor",
+    "vendor": "Syslifters",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "ezXSS",
+    "desc": "أداة أمنية. وصف: ezXSS is an easy way for penetration testers and bug bounty hunters to test (blind) Cross Site Scripting.",
+    "link": "https://github.com/ssl/ezXSS",
+    "vendor": "ssl",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "hacktronian",
+    "desc": "أداة أمنية. وصف: Tools for Pentesting",
+    "link": "https://github.com/thehackingsage/hacktronian",
+    "vendor": "thehackingsage",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "DigiSpark-Scripts",
+    "desc": "أداة أمنية. وصف: USB Rubber Ducky type scripts written for the DigiSpark.",
+    "link": "https://github.com/CedArctic/DigiSpark-Scripts",
+    "vendor": "CedArctic",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "FBI-tools",
+    "desc": "جمع معلومات (OSINT). وصف: 🕵️ OSINT Tools for gathering information and actions forensics 🕵️",
+    "link": "https://github.com/danieldurnea/FBI-tools",
+    "vendor": "danieldurnea",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "linWinPwn",
+    "desc": "أداة أمنية. وصف: linWinPwn is a bash script that streamlines the use of a number of Active Directory tools",
+    "link": "https://github.com/lefayjey/linWinPwn",
+    "vendor": "lefayjey",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "noseyparker",
+    "desc": "أداة أمنية. وصف: Nosey Parker is a command-line tool that finds secrets and sensitive information in textual data and Git history.",
+    "link": "https://github.com/praetorian-inc/noseyparker",
+    "vendor": "praetorian-inc",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "medusa",
+    "desc": "أداة أمنية. وصف: Binary instrumentation framework based on FRIDA",
+    "link": "https://github.com/Ch0pin/medusa",
+    "vendor": "Ch0pin",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "pwnagotchi",
+    "desc": "أداة أمنية. وصف: (⌐■_■) - Raspberry Pi instrumenting Bettercap for Wi-Fi pwning.",
+    "link": "https://github.com/jayofelony/pwnagotchi",
+    "vendor": "jayofelony",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "rapidscan",
+    "desc": "ماسح وفحص. وصف: :new: The Multi-Tool Web Vulnerability Scanner.",
+    "link": "https://github.com/skavngr/rapidscan",
+    "vendor": "skavngr",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "cloud_enum",
+    "desc": "جمع معلومات (OSINT). وصف: Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.",
+    "link": "https://github.com/initstring/cloud_enum",
+    "vendor": "initstring",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "pwncat",
+    "desc": "ماسح وفحص. وصف: pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and reverse shell, self-injecting shell and port forwarding magic - and its fully scriptable with Python (PSE)",
+    "link": "https://github.com/cytopia/pwncat",
+    "vendor": "cytopia",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "DSInternals",
+    "desc": "أداة أمنية. وصف: Directory Services Internals (DSInternals) PowerShell Module and Framework",
+    "link": "https://github.com/MichaelGrafnetter/DSInternals",
+    "vendor": "MichaelGrafnetter",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "ADB-Toolkit",
+    "desc": "أداة أمنية. وصف: ADB-Toolkit V2 for easy ADB tricks with many perks in all one. ENJOY!",
+    "link": "https://github.com/ASHWIN990/ADB-Toolkit",
+    "vendor": "ASHWIN990",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "A-Red-Teamer-diaries",
+    "desc": "أداة أمنية. وصف: RedTeam/Pentest notes and experiments tested on several infrastructures related to professional engagements.",
+    "link": "https://github.com/ihebski/A-Red-Teamer-diaries",
+    "vendor": "ihebski",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "evillimiter",
+    "desc": "أداة أمنية. وصف: Tool that monitors, analyzes and limits the bandwidth of devices on the local network without administrative access.",
+    "link": "https://github.com/bitbrute/evillimiter",
+    "vendor": "bitbrute",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "One-Lin3r",
+    "desc": "أداة أمنية. وصف: Gives you one-liners that aids in penetration testing operations, privilege escalation and more",
+    "link": "https://github.com/D4Vinci/One-Lin3r",
+    "vendor": "D4Vinci",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "ssh-mitm",
+    "desc": "أداة أمنية. وصف: SSH man-in-the-middle tool",
+    "link": "https://github.com/jtesta/ssh-mitm",
+    "vendor": "jtesta",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "hackerpro",
+    "desc": "أداة أمنية. وصف: All in One Hacking Tool for Linux & Android (Termux). Make your linux environment into a Hacking Machine. Hackers are welcome in our blog",
+    "link": "https://github.com/jaykali/hackerpro",
+    "vendor": "jaykali",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "inql",
+    "desc": "ماسح وفحص. وصف: InQL is a robust, open-source Burp Suite extension for advanced GraphQL testing, offering intuitive vulnerability detection, customizable scans, and seamless Burp integration.",
+    "link": "https://github.com/doyensec/inql",
+    "vendor": "doyensec",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Damn-Vulnerable-GraphQL-Application",
+    "desc": "أداة أمنية. وصف: Damn Vulnerable GraphQL Application is an intentionally vulnerable GraphQL service implementation designed for learning about and practising GraphQL Security.",
+    "link": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application",
+    "vendor": "dolevf",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "espoofer",
+    "desc": "أداة أمنية. وصف: An email spoofing testing tool that aims to bypass SPF/DKIM/DMARC and forge DKIM signatures.🍻",
+    "link": "https://github.com/chenjj/espoofer",
+    "vendor": "chenjj",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "AngryOxide",
+    "desc": "أداة أمنية. وصف: 802.11 Attack Tool",
+    "link": "https://github.com/Ragnt/AngryOxide",
+    "vendor": "Ragnt",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Ghostwriter",
+    "desc": "ماسح وفحص. وصف: The SpecterOps project management and reporting engine",
+    "link": "https://github.com/GhostManager/Ghostwriter",
+    "vendor": "GhostManager",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "gitjacker",
+    "desc": "أداة أمنية. وصف: 🔪 :octocat: Leak git repositories from misconfigured websites",
+    "link": "https://github.com/liamg/gitjacker",
+    "vendor": "liamg",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "fsociety",
+    "desc": "أداة أمنية. وصف: A Modular Penetration Testing Framework",
+    "link": "https://github.com/fsociety-team/fsociety",
+    "vendor": "fsociety-team",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "wordlists",
+    "desc": "أداة أمنية. وصف: Real-world infosec wordlists, updated regularly",
+    "link": "https://github.com/trickest/wordlists",
+    "vendor": "trickest",
+    "src": "community",
+    "ts": 1756075307
+  },
+  {
+    "type": "tools",
+    "name": "Chimera",
+    "desc": "أداة أمنية. وصف: Chimera is a PowerShell obfuscation script designed to bypass AMSI and commercial antivirus solutions.",
+    "link": "https://github.com/tokyoneon/Chimera",
+    "vendor": "tokyoneon",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "GooFuzz",
+    "desc": "جمع معلومات (OSINT). وصف: GooFuzz is a tool to perform fuzzing with an OSINT approach, managing to enumerate directories, files, subdomains or parameters without leaving evidence on the target's server and by means of advanced Google searches (Google Dorking).",
+    "link": "https://github.com/m3n0sd0n4ld/GooFuzz",
+    "vendor": "m3n0sd0n4ld",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "linkedin2username",
+    "desc": "جمع معلومات (OSINT). وصف: OSINT Tool: Generate username lists for companies on LinkedIn",
+    "link": "https://github.com/initstring/linkedin2username",
+    "vendor": "initstring",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "CloudPeler",
+    "desc": "أداة أمنية. وصف: CrimeFlare is a useful tool for bypassing websites protected by CloudFlare WAF, with this tool you can easily see the real IP of websites that have been protected by CloudFlare. The resulting information is certainly very useful for conducting further penetration testing, and analyzing websites with the same server.",
+    "link": "https://github.com/zidansec/CloudPeler",
+    "vendor": "zidansec",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "changeme",
+    "desc": "ماسح وفحص. وصف: A default credential scanner.",
+    "link": "https://github.com/ztgrace/changeme",
+    "vendor": "ztgrace",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Lockdoor-Framework",
+    "desc": "أداة أمنية. وصف: 🔐 Lockdoor Framework : A Penetration Testing framework with Cyber Security Resources",
+    "link": "https://github.com/SofianeHamlaoui/Lockdoor-Framework",
+    "vendor": "SofianeHamlaoui",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "inventory",
+    "desc": "أداة أمنية. وصف: Asset inventory of over 800 public bug bounty programs.",
+    "link": "https://github.com/trickest/inventory",
+    "vendor": "trickest",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "AWSBucketDump",
+    "desc": "أداة أمنية. وصف: Security Tool to Look For Interesting Files in S3 Buckets",
+    "link": "https://github.com/jordanpotti/AWSBucketDump",
+    "vendor": "jordanpotti",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "API-SecurityEmpire",
+    "desc": "أداة أمنية. وصف: API Security Project aims to present unique attack & defense methods in API Security field",
+    "link": "https://github.com/Cyber-Guy1/API-SecurityEmpire",
+    "vendor": "Cyber-Guy1",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "PentestTools",
+    "desc": "أداة أمنية. وصف: Awesome Pentest Tools Collection",
+    "link": "https://github.com/arch3rPro/PentestTools",
+    "vendor": "arch3rPro",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "mutillidae",
+    "desc": "أداة أمنية. وصف: OWASP Mutillidae II is a free, open-source, deliberately vulnerable web application providing a target for web-security training. This is an easy-to-use web hacking environment designed for labs, security enthusiasts, classrooms, CTF, and vulnerability assessment tool targets.",
+    "link": "https://github.com/webpwnized/mutillidae",
+    "vendor": "webpwnized",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "toxssin",
+    "desc": "أداة أمنية. وصف: An XSS exploitation command-line interface and payload generator.",
+    "link": "https://github.com/t3l3machus/toxssin",
+    "vendor": "t3l3machus",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "fuxi",
+    "desc": "أداة أمنية. وصف: Penetration Testing Platform",
+    "link": "https://github.com/jeffzh3ng/fuxi",
+    "vendor": "jeffzh3ng",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "passphrase-wordlist",
+    "desc": "تحليل كلمات مرور. وصف: Passphrase wordlist and hashcat rules for offline cracking of long, complex passwords",
+    "link": "https://github.com/initstring/passphrase-wordlist",
+    "vendor": "initstring",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "psudohash",
+    "desc": "تحليل كلمات مرور. وصف: Generates millions of keyword-based password mutations in seconds.",
+    "link": "https://github.com/t3l3machus/psudohash",
+    "vendor": "t3l3machus",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "PowerShell-for-Hackers",
+    "desc": "أداة أمنية. وصف: This repository is a collection of powershell functions every hacker should know",
+    "link": "https://github.com/I-Am-Jakoby/PowerShell-for-Hackers",
+    "vendor": "I-Am-Jakoby",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Interlace",
+    "desc": "ماسح وفحص. وصف: Easily turn single threaded command line applications into a fast, multi-threaded application with CIDR and glob support.",
+    "link": "https://github.com/codingo/Interlace",
+    "vendor": "codingo",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "clairvoyance",
+    "desc": "أداة أمنية. وصف: Obtain GraphQL API schema even if the introspection is disabled",
+    "link": "https://github.com/nikitastupin/clairvoyance",
+    "vendor": "nikitastupin",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "VHostScan",
+    "desc": "ماسح وفحص. وصف: A virtual host scanner that performs reverse lookups, can be used with pivot tools, detect catch-all scenarios, work around wildcards, aliases and dynamic default pages.",
+    "link": "https://github.com/codingo/VHostScan",
+    "vendor": "codingo",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "nodepass",
+    "desc": "أداة أمنية. وصف: A secure, efficient TCP/UDP tunneling solution that delivers fast, reliable access across network restrictions using pre-established TLS/TCP connections.",
+    "link": "https://github.com/yosebyte/nodepass",
+    "vendor": "yosebyte",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "PlumHound",
+    "desc": "ماسح وفحص. وصف: Bloodhound Reporting for Blue and Purple Teams",
+    "link": "https://github.com/PlumHound/PlumHound",
+    "vendor": "PlumHound",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "awesome-vulnerable-apps",
+    "desc": "أداة أمنية. وصف: Awesome Vulnerable Applications",
+    "link": "https://github.com/vavkamil/awesome-vulnerable-apps",
+    "vendor": "vavkamil",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Passhunt",
+    "desc": "تحليل كلمات مرور. وصف: Passhunt is a simple tool for searching of default credentials for network devices, web applications and more. Search through 523 vendors and their 2084 default passwords.",
+    "link": "https://github.com/Viralmaniar/Passhunt",
+    "vendor": "Viralmaniar",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Brutal",
+    "desc": "أداة أمنية. وصف: Payload for teensy like a rubber ducky but the syntax is different. this Human interfaes device ( HID attacks ). Penetration With Teensy  . Brutal is a toolkit to quickly create various payload,powershell attack , virus attack and launch listener for a Human Interface Device ( Payload Teensy )",
+    "link": "https://github.com/screetsec/Brutal",
+    "vendor": "screetsec",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "awesome-vulnerable",
+    "desc": "أداة أمنية. وصف: A curated list of VULNERABLE APPS and SYSTEMS which can be used as PENETRATION TESTING PRACTICE LAB.",
+    "link": "https://github.com/kaiiyer/awesome-vulnerable",
+    "vendor": "kaiiyer",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "SSTImap",
+    "desc": "أداة أمنية. وصف: Automatic SSTI detection tool with interactive interface",
+    "link": "https://github.com/vladko312/SSTImap",
+    "vendor": "vladko312",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Vulnhub-CTF-Writeups",
+    "desc": "أداة أمنية. وصف: This cheasheet is aimed at the CTF Players and Beginners to help them sort Vulnhub Labs. This list contains all the writeups available on hackingarticles.",
+    "link": "https://github.com/Ignitetechnologies/Vulnhub-CTF-Writeups",
+    "vendor": "Ignitetechnologies",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Androl4b",
+    "desc": "هندسة عكسية. وصف: A Virtual Machine For Assessing Android applications, Reverse Engineering and Malware Analysis",
+    "link": "https://github.com/sh4hin/Androl4b",
+    "vendor": "sh4hin",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "ConPtyShell",
+    "desc": "هندسة عكسية. وصف: ConPtyShell - Fully Interactive Reverse Shell for Windows",
+    "link": "https://github.com/antonioCoco/ConPtyShell",
+    "vendor": "antonioCoco",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "HostHunter",
+    "desc": "جمع معلومات (OSINT). وصف: HostHunter a recon tool for discovering hostnames using OSINT techniques.",
+    "link": "https://github.com/SpiderLabs/HostHunter",
+    "vendor": "SpiderLabs",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "buster",
+    "desc": "جمع معلومات (OSINT). وصف: An advanced tool for email reconnaissance",
+    "link": "https://github.com/sham00n/buster",
+    "vendor": "sham00n",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "thc-ipv6",
+    "desc": "أداة أمنية. وصف: IPv6 attack toolkit",
+    "link": "https://github.com/vanhauser-thc/thc-ipv6",
+    "vendor": "vanhauser-thc",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "CEH-in-bullet-points",
+    "desc": "أداة أمنية. وصف: 💻 Certified ethical hacker summary in bullet points",
+    "link": "https://github.com/undergroundwires/CEH-in-bullet-points",
+    "vendor": "undergroundwires",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "dotdotpwn",
+    "desc": "تفجير مدخلات. وصف: DotDotPwn - The Directory Traversal Fuzzer",
+    "link": "https://github.com/wireghoul/dotdotpwn",
+    "vendor": "wireghoul",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "htshells",
+    "desc": "أداة أمنية. وصف: Self contained htaccess shells and attacks",
+    "link": "https://github.com/wireghoul/htshells",
+    "vendor": "wireghoul",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "AboutSecurity",
+    "desc": "أداة أمنية. وصف: Everything for pentest. | 用于渗透测试的 payload 和 bypass 字典.",
+    "link": "https://github.com/ffffffff0x/AboutSecurity",
+    "vendor": "ffffffff0x",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "scilla",
+    "desc": "جمع معلومات (OSINT). وصف: Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration",
+    "link": "https://github.com/edoardottt/scilla",
+    "vendor": "edoardottt",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "APTRS",
+    "desc": "ماسح وفحص. وصف: Automated pentest reporting with custom templates, project tracking, customer dashboard and client management tools. Streamline your security workflows effortlessly!",
+    "link": "https://github.com/APTRS/APTRS",
+    "vendor": "APTRS",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "BabySploit",
+    "desc": "أداة أمنية. وصف: :baby: BabySploit Beginner Pentesting Toolkit/Framework Written in Python :snake:",
+    "link": "https://github.com/M4cs/BabySploit",
+    "vendor": "M4cs",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "hackdroid",
+    "desc": "أداة أمنية. وصف: Security Apps for Android",
+    "link": "https://github.com/thehackingsage/hackdroid",
+    "vendor": "thehackingsage",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "sublert",
+    "desc": "جمع معلومات (OSINT). وصف: Sublert is a security and reconnaissance tool which leverages certificate transparency to automatically monitor new subdomains deployed by specific organizations and issued TLS/SSL certificate.",
+    "link": "https://github.com/yassineaboukir/sublert",
+    "vendor": "yassineaboukir",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "scripts",
+    "desc": "أداة أمنية. وصف: Scripts I use during pentest engagements.",
+    "link": "https://github.com/averagesecurityguy/scripts",
+    "vendor": "averagesecurityguy",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "broxy",
+    "desc": "أداة أمنية. وصف: An HTTP/HTTPS intercept proxy written in Go.",
+    "link": "https://github.com/rhaidiz/broxy",
+    "vendor": "rhaidiz",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "AutoPWN-Suite",
+    "desc": "ماسح وفحص. وصف: AutoPWN Suite is a project for scanning vulnerabilities and exploiting systems automatically.",
+    "link": "https://github.com/GamehunterKaan/AutoPWN-Suite",
+    "vendor": "GamehunterKaan",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "cent",
+    "desc": "أداة أمنية. وصف: Community edition nuclei templates, a simple tool that allows you to organize all the Nuclei templates offered by the community in one place",
+    "link": "https://github.com/xm1k3/cent",
+    "vendor": "xm1k3",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "command",
+    "desc": "أداة أمنية. وصف: 红队常用命令速查",
+    "link": "https://github.com/safe6Sec/command",
+    "vendor": "safe6Sec",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Web-Cache-Vulnerability-Scanner",
+    "desc": "ماسح وفحص. وصف: Web Cache Vulnerability Scanner is a Go-based CLI tool for testing for web cache poisoning. It is developed by Hackmanit GmbH (http://hackmanit.de/).",
+    "link": "https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner",
+    "vendor": "Hackmanit",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "reverse-ssh",
+    "desc": "هندسة عكسية. وصف: Statically-linked ssh server with reverse shell functionality for CTFs and such",
+    "link": "https://github.com/Fahrj/reverse-ssh",
+    "vendor": "Fahrj",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "leaky-paths",
+    "desc": "ماسح وفحص. وصف: A collection of special paths linked to common sensitive APIs, devops internals, frameworks conf, known misconfigurations, juicy APIs ..etc. It could be used as a part of web content discovery, to scan passively for high-quality endpoints and quick-wins.",
+    "link": "https://github.com/ayoubfathi/leaky-paths",
+    "vendor": "ayoubfathi",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "nmap",
+    "desc": "ماسح وفحص. وصف: Idiomatic nmap library for go developers",
+    "link": "https://github.com/Ullaakut/nmap",
+    "vendor": "Ullaakut",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "breaking-and-pwning-apps-and-servers-aws-azure-training",
+    "desc": "أداة أمنية. وصف: Course content, lab setup instructions and documentation of our very popular Breaking and Pwning Apps and Servers on AWS and Azure hands on training!",
+    "link": "https://github.com/appsecco/breaking-and-pwning-apps-and-servers-aws-azure-training",
+    "vendor": "appsecco",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "habu",
+    "desc": "أداة أمنية. وصف: Hacking Toolkit",
+    "link": "https://github.com/fportantier/habu",
+    "vendor": "fportantier",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "capsulecorp-pentest",
+    "desc": "أداة أمنية. وصف: Vagrant VirtualBox environment for conducting an internal network penetration test",
+    "link": "https://github.com/R3dy/capsulecorp-pentest",
+    "vendor": "R3dy",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "SwiftnessX",
+    "desc": "أداة أمنية. وصف: A cross-platform note-taking & target-tracking app for penetration testers.",
+    "link": "https://github.com/ehrishirajsharma/SwiftnessX",
+    "vendor": "ehrishirajsharma",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "skanuvaty",
+    "desc": "ماسح وفحص. وصف: Dangerously fast DNS/network/port scanner",
+    "link": "https://github.com/Esc4iCEscEsc/skanuvaty",
+    "vendor": "Esc4iCEscEsc",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Payloads",
+    "desc": "أداة أمنية. وصف: Payload Arsenal for Pentration Tester and Bug Bounty Hunters",
+    "link": "https://github.com/sh377c0d3/Payloads",
+    "vendor": "sh377c0d3",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "subscraper",
+    "desc": "جمع معلومات (OSINT). وصف: Subdomain and target enumeration tool built for offensive security testing",
+    "link": "https://github.com/m8sec/subscraper",
+    "vendor": "m8sec",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "IPRotate_Burp_Extension",
+    "desc": "أداة أمنية. وصف: Extension for Burp Suite which uses AWS API Gateway to rotate your IP on every request.",
+    "link": "https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension",
+    "vendor": "RhinoSecurityLabs",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "sectemplates",
+    "desc": "أداة أمنية. وصف: Open source templates you can use to bootstrap your security programs",
+    "link": "https://github.com/securitytemplates/sectemplates",
+    "vendor": "securitytemplates",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "netcat",
+    "desc": "أداة أمنية. وصف: NetCat for Windows",
+    "link": "https://github.com/diegocr/netcat",
+    "vendor": "diegocr",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Gorsair",
+    "desc": "أداة أمنية. وصف: Gorsair gives root access on remote docker containers that expose their APIs",
+    "link": "https://github.com/Ullaakut/Gorsair",
+    "vendor": "Ullaakut",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "tactical-exploitation",
+    "desc": "أداة أمنية. وصف: Modern tactical exploitation toolkit.",
+    "link": "https://github.com/0xdea/tactical-exploitation",
+    "vendor": "0xdea",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "APKHunt",
+    "desc": "أداة أمنية. وصف: APKHunt is a comprehensive static code analysis tool for Android apps that is based on the OWASP MASVS framework. Although APKHunt is intended primarily for mobile app developers and security testers, it can be used by anyone to identify and address potential security vulnerabilities in their code.",
+    "link": "https://github.com/Cyber-Buddy/APKHunt",
+    "vendor": "Cyber-Buddy",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "OffSec-Reporting",
+    "desc": "ماسح وفحص. وصف: Offensive Security OSCP, OSWP, OSEP, OSWA, OSWE, OSED, OSMR, OSEE, OSDA Exam and Lab Reporting / Note-Taking Tool",
+    "link": "https://github.com/Syslifters/OffSec-Reporting",
+    "vendor": "Syslifters",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "JustTryHarder",
+    "desc": "أداة أمنية. وصف: JustTryHarder, a cheat sheet which will aid you through the PWK course & the OSCP Exam. (Inspired by PayloadAllTheThings)",
+    "link": "https://github.com/sinfulz/JustTryHarder",
+    "vendor": "sinfulz",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Garud",
+    "desc": "ماسح وفحص. وصف: An automation tool that scans sub-domains, sub-domain takeover, then filters out XSS, SSTI, SSRF, and more injection point parameters and scans for some low hanging vulnerabilities automatically.",
+    "link": "https://github.com/R0X4R/Garud",
+    "vendor": "R0X4R",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "reconmap",
+    "desc": "جمع معلومات (OSINT). وصف: Reconmap is a collaboration-first security operations platform for infosec teams and MSSPs, enabling end‑to‑end engagement management, from reconnaissance through execution and reporting. With built-in command automation, output parsing, and AI‑assisted summaries, it delivers faster, more structured, and high‑quality security assessments.",
+    "link": "https://github.com/reconmap/reconmap",
+    "vendor": "reconmap",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Web-App-Pentest-Checklist",
+    "desc": "أداة أمنية. وصف: A OWASP Based Checklist  With 500+ Test Cases",
+    "link": "https://github.com/Hari-prasaanth/Web-App-Pentest-Checklist",
+    "vendor": "Hari-prasaanth",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "lazyaircrack",
+    "desc": "أداة أمنية. وصف: Automated tool for WiFi hacking.",
+    "link": "https://github.com/3xploitGuy/lazyaircrack",
+    "vendor": "3xploitGuy",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "CTF-notes",
+    "desc": "أداة أمنية. وصف: Everything needed for doing CTFs",
+    "link": "https://github.com/Shiva108/CTF-notes",
+    "vendor": "Shiva108",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "scantron",
+    "desc": "ماسح وفحص. وصف: A distributed nmap / masscan scanning framework complete with scan scheduling, engine pooling, subsequent scan port diff-ing, and an API client for automation workflows.",
+    "link": "https://github.com/rackerlabs/scantron",
+    "vendor": "rackerlabs",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "hackingBuddyGPT",
+    "desc": "أداة أمنية. وصف: Helping Ethical Hackers use LLMs in 50 Lines of Code or less..",
+    "link": "https://github.com/ipa-lab/hackingBuddyGPT",
+    "vendor": "ipa-lab",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "penetration-testing-cheat-sheet",
+    "desc": "أداة أمنية. وصف: Work in progress...",
+    "link": "https://github.com/ivan-sincek/penetration-testing-cheat-sheet",
+    "vendor": "ivan-sincek",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "webkiller",
+    "desc": "أداة أمنية. وصف: Tool Information Gathering Write By Python.",
+    "link": "https://github.com/ultrasecurity/webkiller",
+    "vendor": "ultrasecurity",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "jackhammer",
+    "desc": "أداة أمنية. وصف: Jackhammer - One Security vulnerability assessment/management tool to solve all the security team problems.",
+    "link": "https://github.com/olacabs/jackhammer",
+    "vendor": "olacabs",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "dradis-ce",
+    "desc": "ماسح وفحص. وصف: Dradis Framework: Collaboration and reporting for IT Security teams",
+    "link": "https://github.com/dradis/dradis-ce",
+    "vendor": "dradis",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "THC-Archive",
+    "desc": "أداة أمنية. وصف: All releases of the security research group (a.k.a. hackers) The Hacker's Choice",
+    "link": "https://github.com/hackerschoice/THC-Archive",
+    "vendor": "hackerschoice",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Spoofy",
+    "desc": "أداة أمنية. وصف: Spoofy is a program that checks if a list of domains can be spoofed based on SPF and DMARC records.",
+    "link": "https://github.com/MattKeeley/Spoofy",
+    "vendor": "MattKeeley",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "scant3r",
+    "desc": "ماسح وفحص. وصف: ScanT3r - Module based Bug Bounty Automation Tool ( use Lotus instead github.com/bugBlocker/lotus )",
+    "link": "https://github.com/MindPatch/scant3r",
+    "vendor": "MindPatch",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Application-Security",
+    "desc": "أداة أمنية. وصف: Resources for Application Security including Web, API, Android, iOS and Thick Client",
+    "link": "https://github.com/Anof-cyber/Application-Security",
+    "vendor": "Anof-cyber",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Penetration-Testing-Study-Notes",
+    "desc": "أداة أمنية. وصف: Penetration Testing notes, resources and scripts",
+    "link": "https://github.com/AnasAboreeda/Penetration-Testing-Study-Notes",
+    "vendor": "AnasAboreeda",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "HACK-CAMERA",
+    "desc": "أداة أمنية. وصف: Hack Victim android Camera Using Link with Termux/Kali-linux",
+    "link": "https://github.com/hackerxphantom/HACK-CAMERA",
+    "vendor": "hackerxphantom",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "ThunderSearch",
+    "desc": "أداة أمنية. وصف: macOS上的小而美【Fofa、Shodan、Hunter、Zoomeye、Quake网络空间搜索引擎】闪电搜索器；GUI图形化(Mac/Windows)渗透测试信息搜集工具；资产搜集引擎；hw红队工具hvv",
+    "link": "https://github.com/xzajyjs/ThunderSearch",
+    "vendor": "xzajyjs",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "graphw00f",
+    "desc": "أداة أمنية. وصف: graphw00f is GraphQL Server Engine Fingerprinting utility for software security professionals looking to learn more about what technology is behind a given GraphQL endpoint.",
+    "link": "https://github.com/dolevf/graphw00f",
+    "vendor": "dolevf",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Bug-Bounty-Methodology",
+    "desc": "أداة أمنية. وصف: These are my checklists which I use during my hunting.",
+    "link": "https://github.com/tuhin1729/Bug-Bounty-Methodology",
+    "vendor": "tuhin1729",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "SonarSearch",
+    "desc": "أداة أمنية. وصف: A rapid API for the Project Sonar dataset",
+    "link": "https://github.com/Cgboal/SonarSearch",
+    "vendor": "Cgboal",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "whonow",
+    "desc": "أداة أمنية. وصف: A \"malicious\" DNS server for executing DNS Rebinding attacks on the fly (public instance running on rebind.network:53)",
+    "link": "https://github.com/brannondorsey/whonow",
+    "vendor": "brannondorsey",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Web_Hacking",
+    "desc": "أداة أمنية. وصف: Bug Bounty Tricks and useful payloads and bypasses for Web Application Security.",
+    "link": "https://github.com/Mehdi0x90/Web_Hacking",
+    "vendor": "Mehdi0x90",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Cerberus",
+    "desc": "أداة أمنية. وصف: 一款功能强大的漏洞扫描器，子域名爆破使用aioDNS，asyncio异步快速扫描，覆盖目标全方位资产进行批量漏洞扫描，中间件信息收集，自动收集ip代理，探测Waf信息时自动使用来保护本机真实Ip，在本机Ip被Waf杀死后，自动切换代理Ip进行扫描，Waf信息收集(国内外100+款waf信息)包括安全狗，云锁，阿里云，云盾，腾讯云等，提供部分已知waf bypass 方案，中间件漏洞检测(Thinkphp,weblogic等 CVE-2018-5955,CVE-2018-12613,CVE-2018-11759等)，支持SQL注入, XSS, 命令执行,文件包含, ssrf 漏洞扫描, 支持自定义漏洞邮箱推送功能",
+    "link": "https://github.com/YagamiiLight/Cerberus",
+    "vendor": "YagamiiLight",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "badPods",
+    "desc": "أداة أمنية. وصف: A collection of manifests that will create pods with elevated privileges.",
+    "link": "https://github.com/BishopFox/badPods",
+    "vendor": "BishopFox",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "PenTestKit",
+    "desc": "أداة أمنية. وصف: Tools, scripts and tips useful during Penetration Testing engagements.",
+    "link": "https://github.com/maldevel/PenTestKit",
+    "vendor": "maldevel",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "xurlfind3r",
+    "desc": "أداة أمنية. وصف: A command-line utility designed to discover URLs for a given domain in a simple, efficient way. It works by gathering information from a variety of passive sources, meaning it doesn't interact directly with the target but instead gathers data that is already publicly available.",
+    "link": "https://github.com/hueristiq/xurlfind3r",
+    "vendor": "hueristiq",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "SQLiDetector",
+    "desc": "ماسح وفحص. وصف: Simple python script supported with BurpBouty profile that helps you to detect SQL injection \"Error based\" by sending multiple requests with 14 payloads and checking for 152 regex patterns for different databases.",
+    "link": "https://github.com/eslam3kl/SQLiDetector",
+    "vendor": "eslam3kl",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "hashview-old",
+    "desc": "تحليل كلمات مرور. وصف: A web front-end for password cracking and analytics",
+    "link": "https://github.com/hashview/hashview-old",
+    "vendor": "hashview",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "EtherGhost",
+    "desc": "أداة أمنية. وصف: 新一代Webshell管理器，兼容蚁剑与冰蝎的PHP webshell",
+    "link": "https://github.com/Marven11/EtherGhost",
+    "vendor": "Marven11",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "DarkAngel",
+    "desc": "أداة أمنية. وصف: DarkAngel 是一款全自动白帽漏洞扫描器，从hackerone、bugcrowd资产监听到漏洞报告生成、漏洞URL截屏、消息通知。",
+    "link": "https://github.com/Bywalks/DarkAngel",
+    "vendor": "Bywalks",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "Sitadel",
+    "desc": "ماسح وفحص. وصف: Web Application Security Scanner",
+    "link": "https://github.com/shenril/Sitadel",
+    "vendor": "shenril",
+    "src": "community",
+    "ts": 1756075310
+  },
+  {
+    "type": "tools",
+    "name": "sherlock",
+    "desc": "أداة أمنية. وصف: Hunt down social media accounts by username across social networks",
+    "link": "https://github.com/sherlock-project/sherlock",
+    "vendor": "sherlock-project",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "web-check",
+    "desc": "جمع معلومات (OSINT). وصف: 🕵️‍♂️ All-in-one OSINT tool for analysing any website",
+    "link": "https://github.com/Lissy93/web-check",
+    "vendor": "Lissy93",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "awesome-osint",
+    "desc": "جمع معلومات (OSINT). وصف: :scream: A curated list of amazingly awesome OSINT",
+    "link": "https://github.com/jivoi/awesome-osint",
+    "vendor": "jivoi",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "SingleFile",
+    "desc": "أداة أمنية. وصف: Web Extension for saving a faithful copy of a complete web page in a single HTML file",
+    "link": "https://github.com/gildas-lormeau/SingleFile",
+    "vendor": "gildas-lormeau",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "maigret",
+    "desc": "أداة أمنية. وصف: 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites",
+    "link": "https://github.com/soxoj/maigret",
+    "vendor": "soxoj",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "GHunt",
+    "desc": "أداة أمنية. وصف: 🕵️‍♂️ Offensive Google framework.",
+    "link": "https://github.com/mxrch/GHunt",
+    "vendor": "mxrch",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "twint",
+    "desc": "جمع معلومات (OSINT). وصف: An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations.",
+    "link": "https://github.com/twintproject/twint",
+    "vendor": "twintproject",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "spiderfoot",
+    "desc": "جمع معلومات (OSINT). وصف: SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+    "link": "https://github.com/smicallef/spiderfoot",
+    "vendor": "smicallef",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "phoneinfoga",
+    "desc": "أداة أمنية. وصف: Information gathering framework for phone numbers",
+    "link": "https://github.com/sundowndev/phoneinfoga",
+    "vendor": "sundowndev",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "amass",
+    "desc": "أداة أمنية. وصف: In-depth attack surface mapping and asset discovery",
+    "link": "https://github.com/owasp-amass/amass",
+    "vendor": "owasp-amass",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "theHarvester",
+    "desc": "جمع معلومات (OSINT). وصف: E-mails, subdomains and names Harvester - OSINT",
+    "link": "https://github.com/laramies/theHarvester",
+    "vendor": "laramies",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "social-analyzer",
+    "desc": "أداة أمنية. وصف: API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
+    "link": "https://github.com/qeeqbox/social-analyzer",
+    "vendor": "qeeqbox",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "subfinder",
+    "desc": "جمع معلومات (OSINT). وصف: Fast passive subdomain enumeration tool.",
+    "link": "https://github.com/projectdiscovery/subfinder",
+    "vendor": "projectdiscovery",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "Photon",
+    "desc": "جمع معلومات (OSINT). وصف: Incredibly fast crawler designed for OSINT.",
+    "link": "https://github.com/s0md3v/Photon",
+    "vendor": "s0md3v",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "instaloader",
+    "desc": "أداة أمنية. وصف: Download pictures (or videos) along with their captions and other metadata from Instagram.",
+    "link": "https://github.com/instaloader/instaloader",
+    "vendor": "instaloader",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "holehe",
+    "desc": "تحليل كلمات مرور. وصف: holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+    "link": "https://github.com/megadose/holehe",
+    "vendor": "megadose",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "OSINT-Framework",
+    "desc": "جمع معلومات (OSINT). وصف: OSINT Framework",
+    "link": "https://github.com/lockfale/OSINT-Framework",
+    "vendor": "lockfale",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "OneForAll",
+    "desc": "أداة أمنية. وصف: OneForAll是一款功能强大的子域收集工具",
+    "link": "https://github.com/shmilylty/OneForAll",
+    "vendor": "shmilylty",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "awesome-hacker-search-engines",
+    "desc": "أداة أمنية. وصف: A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more",
+    "link": "https://github.com/edoardottt/awesome-hacker-search-engines",
+    "vendor": "edoardottt",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "httpx",
+    "desc": "أداة أمنية. وصف: httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library.",
+    "link": "https://github.com/projectdiscovery/httpx",
+    "vendor": "projectdiscovery",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "bbot",
+    "desc": "ماسح وفحص. وصف: The recursive internet scanner for hackers. 🧡",
+    "link": "https://github.com/blacklanternsecurity/bbot",
+    "vendor": "blacklanternsecurity",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "trape",
+    "desc": "جمع معلومات (OSINT). وصف: People tracker on the Internet: OSINT analysis and research tool by Jose Pino",
+    "link": "https://github.com/jofpin/trape",
+    "vendor": "jofpin",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "opencti",
+    "desc": "أداة أمنية. وصف: Open Cyber Threat Intelligence Platform",
+    "link": "https://github.com/OpenCTI-Platform/opencti",
+    "vendor": "OpenCTI-Platform",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "osint_stuff_tool_collection",
+    "desc": "جمع معلومات (OSINT). وصف: A collection of several hundred online tools for OSINT",
+    "link": "https://github.com/cipher387/osint_stuff_tool_collection",
+    "vendor": "cipher387",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "gitrob",
+    "desc": "جمع معلومات (OSINT). وصف: Reconnaissance tool for GitHub organizations",
+    "link": "https://github.com/michenriksen/gitrob",
+    "vendor": "michenriksen",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "aquatone",
+    "desc": "أداة أمنية. وصف: A Tool for Domain Flyovers",
+    "link": "https://github.com/michenriksen/aquatone",
+    "vendor": "michenriksen",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "mosint",
+    "desc": "جمع معلومات (OSINT). وصف: An automated e-mail OSINT tool",
+    "link": "https://github.com/alpkeskin/mosint",
+    "vendor": "alpkeskin",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "Digital-Privacy",
+    "desc": "جمع معلومات (OSINT). وصف: Information Protection & OSINT resources | 一个关于数字隐私搜集、保护、清理集一体的方案,外加开源信息收集(OSINT)对抗",
+    "link": "https://github.com/ffffffff0x/Digital-Privacy",
+    "vendor": "ffffffff0x",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "hakrawler",
+    "desc": "أداة أمنية. وصف: Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application",
+    "link": "https://github.com/hakluke/hakrawler",
+    "vendor": "hakluke",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "h8mail",
+    "desc": "جمع معلومات (OSINT). وصف: Email OSINT & Password breach hunting tool, locally or using premium services. Supports chasing down related email",
+    "link": "https://github.com/khast3x/h8mail",
+    "vendor": "khast3x",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "blackbird",
+    "desc": "جمع معلومات (OSINT). وصف: An OSINT tool to search for accounts by username and email in social networks.",
+    "link": "https://github.com/p1ngul1n0/blackbird",
+    "vendor": "p1ngul1n0",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "IntelOwl",
+    "desc": "أداة أمنية. وصف: IntelOwl: manage your Threat Intelligence at scale",
+    "link": "https://github.com/intelowlproject/IntelOwl",
+    "vendor": "intelowlproject",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "GhostTrack",
+    "desc": "أداة أمنية. وصف: Useful tool to track location or mobile number",
+    "link": "https://github.com/HunxByts/GhostTrack",
+    "vendor": "HunxByts",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "shhgit",
+    "desc": "أداة أمنية. وصف: Ah shhgit! Find secrets in your code. Secrets detection for your GitHub, GitLab and Bitbucket repositories.",
+    "link": "https://github.com/eth0izzle/shhgit",
+    "vendor": "eth0izzle",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "ivre",
+    "desc": "جمع معلومات (OSINT). وصف: Network recon framework. Build your own, self-hosted and fully-controlled alternatives to Shodan / ZoomEye / Censys and GreyNoise, run your Passive DNS service, build your taylor-made EASM tool, collect and analyse network intelligence from your sensors, and much more! Uses Nmap, Masscan, Zeek, p0f, ProjectDiscovery tools, etc.",
+    "link": "https://github.com/ivre/ivre",
+    "vendor": "ivre",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "discover",
+    "desc": "جمع معلومات (OSINT). وصف: Custom bash scripts used to automate various penetration testing tasks including recon, scanning,  enumeration, and malicious payload creation using Metasploit. For use with Kali Linux.",
+    "link": "https://github.com/leebaird/discover",
+    "vendor": "leebaird",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "Findomain",
+    "desc": "جمع معلومات (OSINT). وصف: The fastest and complete solution for domain recognition. Supports screenshoting, port scan, HTTP check, data import from other tools, subdomain monitoring, alerts via Discord, Slack and Telegram, multiple API Keys for sources and much more.",
+    "link": "https://github.com/Findomain/Findomain",
+    "vendor": "Findomain",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "TorBot",
+    "desc": "جمع معلومات (OSINT). وصف: Dark Web OSINT Tool",
+    "link": "https://github.com/DedSecInside/TorBot",
+    "vendor": "DedSecInside",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "snoop",
+    "desc": "جمع معلومات (OSINT). وصف: Snoop — инструмент разведки на основе открытых данных (OSINT world)",
+    "link": "https://github.com/snooppr/snoop",
+    "vendor": "snooppr",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "Raccoon",
+    "desc": "جمع معلومات (OSINT). وصف: A high performance offensive security tool for reconnaissance and vulnerability scanning",
+    "link": "https://github.com/evyatarmeged/Raccoon",
+    "vendor": "evyatarmeged",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "toutatis",
+    "desc": "أداة أمنية. وصف: Toutatis is a tool that allows you to extract information from instagrams accounts such as e-mails, phone numbers and more",
+    "link": "https://github.com/megadose/toutatis",
+    "vendor": "megadose",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "awesome-social-engineering",
+    "desc": "أداة أمنية. وصف: A curated list of awesome social engineering resources.",
+    "link": "https://github.com/giuliacassara/awesome-social-engineering",
+    "vendor": "giuliacassara",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "pagodo",
+    "desc": "أداة أمنية. وصف: pagodo (Passive Google Dork) - Automate Google Hacking Database scraping and searching",
+    "link": "https://github.com/opsdisk/pagodo",
+    "vendor": "opsdisk",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "ParamSpider",
+    "desc": "تفجير مدخلات. وصف: Mining URLs from dark corners of Web Archives for bug hunting/fuzzing/further probing",
+    "link": "https://github.com/devanshbatham/ParamSpider",
+    "vendor": "devanshbatham",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "gosearch",
+    "desc": "أداة أمنية. وصف: 🔍 Search anyone's digital footprint across 300+ websites",
+    "link": "https://github.com/ibnaleem/gosearch",
+    "vendor": "ibnaleem",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "uncover",
+    "desc": "أداة أمنية. وصف: Quickly discover exposed hosts on the internet using multiple search engines.",
+    "link": "https://github.com/projectdiscovery/uncover",
+    "vendor": "projectdiscovery",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "email2phonenumber",
+    "desc": "جمع معلومات (OSINT). وصف: A OSINT tool to obtain a target's phone number just by having his email address",
+    "link": "https://github.com/martinvigo/email2phonenumber",
+    "vendor": "martinvigo",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "Mr.Holmes",
+    "desc": "جمع معلومات (OSINT). وصف: A Complete Osint Tool :mag:",
+    "link": "https://github.com/Lucksi/Mr.Holmes",
+    "vendor": "Lucksi",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "reconspider",
+    "desc": "جمع معلومات (OSINT). وصف: 🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.",
+    "link": "https://github.com/bhavsec/reconspider",
+    "vendor": "bhavsec",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "pwnedOrNot",
+    "desc": "جمع معلومات (OSINT). وصف: OSINT Tool for Finding Passwords of Compromised Email Addresses",
+    "link": "https://github.com/thewhiteh4t/pwnedOrNot",
+    "vendor": "thewhiteh4t",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "nexfil",
+    "desc": "جمع معلومات (OSINT). وصف: OSINT tool for finding profiles by username",
+    "link": "https://github.com/thewhiteh4t/nexfil",
+    "vendor": "thewhiteh4t",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "Dorks-collections-list",
+    "desc": "أداة أمنية. وصف: List of Github repositories and articles with list of dorks for different search engines",
+    "link": "https://github.com/cipher387/Dorks-collections-list",
+    "vendor": "cipher387",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "sn0int",
+    "desc": "جمع معلومات (OSINT). وصف: Semi-automatic OSINT framework and package manager",
+    "link": "https://github.com/kpcyrd/sn0int",
+    "vendor": "kpcyrd",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "xray",
+    "desc": "جمع معلومات (OSINT). وصف: XRay is a tool for recon, mapping and OSINT gathering from public networks.",
+    "link": "https://github.com/evilsocket/xray",
+    "vendor": "evilsocket",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "Awesome-Telegram-OSINT",
+    "desc": "جمع معلومات (OSINT). وصف: 📚 A Curated List of Awesome Telegram OSINT Tools, Sites & Resources",
+    "link": "https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT",
+    "vendor": "ItIsMeCall911",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "aleph",
+    "desc": "أداة أمنية. وصف: Search and browse documents and data; find the people and companies you look for.",
+    "link": "https://github.com/alephdata/aleph",
+    "vendor": "alephdata",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "Digital-Forensics-Guide",
+    "desc": "تحليل جنائي (DFIR). وصف: Digital Forensics Guide. Learn all about Digital Forensics, Computer Forensics, Mobile device Forensics, Network Forensics, and Database Forensics.",
+    "link": "https://github.com/mikeroyal/Digital-Forensics-Guide",
+    "vendor": "mikeroyal",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "Argus",
+    "desc": "أداة أمنية. وصف: The Ultimate Information Gathering Toolkit",
+    "link": "https://github.com/jasonxtn/Argus",
+    "vendor": "jasonxtn",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "Awesome-Asset-Discovery",
+    "desc": "أداة أمنية. وصف: List of Awesome Asset Discovery Resources",
+    "link": "https://github.com/redhuntlabs/Awesome-Asset-Discovery",
+    "vendor": "redhuntlabs",
+    "src": "community",
+    "ts": 1756075312
+  },
+  {
+    "type": "tools",
+    "name": "gitGraber",
+    "desc": "أداة أمنية. وصف: gitGraber: monitor GitHub to search and find sensitive data in real time for different online services such as: Google, Amazon, Paypal, Github, Mailgun, Facebook, Twitter, Heroku, Stripe...",
+    "link": "https://github.com/hisxo/gitGraber",
+    "vendor": "hisxo",
+    "src": "community",
+    "ts": 1756075312
+  }
+]
