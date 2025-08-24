@@ -2,8 +2,9 @@
 /* global Prism */
 
 const root = document.documentElement;
-const savedTheme = localStorage.getItem('theme');
-if(savedTheme === 'light') root.classList.add('light');
+// Always start in dark for best readability on phones
+root.classList.remove('light');
+localStorage.setItem('theme','dark');
 
 const themeToggle = document.getElementById('themeToggle');
 if(themeToggle){
