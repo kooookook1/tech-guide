@@ -152,6 +152,44 @@ const CYBER = [
   {type:'ai', name:'Whisper', desc:'تعرف صوتي من OpenAI مفتوح المصدر.', link:'https://github.com/openai/whisper', vendor:'OpenAI'},
   {type:'ai', name:'DeepSeek-Coder', desc:'نماذج ترميز مفتوحة.', link:'https://github.com/deepseek-ai/DeepSeek-Coder', vendor:'DeepSeek', ts: Date.now()},
 
+  // نماذج ذكاء (مغلقة المصدر/خدمات للتجربة)
+  {type:'ai', name:'GPT-4o', desc:'نموذج متعدد الوسائط من OpenAI (مغلق المصدر) للتجربة عبر واجهة OpenAI.', link:'https://platform.openai.com/docs/models', vendor:'OpenAI', src:'official', ts: Date.now()},
+  {type:'ai', name:'GPT-4 Turbo', desc:'سلسلة GPT‑4 Turbo من OpenAI (مغلقة المصدر).', link:'https://platform.openai.com/docs/models', vendor:'OpenAI', src:'official', ts: Date.now()},
+  {type:'ai', name:'Claude 3 Opus', desc:'نماذج Claude 3 من Anthropic (مغلقة المصدر).', link:'https://www.anthropic.com/claude', vendor:'Anthropic', src:'official', ts: Date.now()},
+  {type:'ai', name:'Claude 3 Sonnet', desc:'نموذج متوازن من Anthropic (مغلق المصدر).', link:'https://www.anthropic.com/claude', vendor:'Anthropic', src:'official', ts: Date.now()},
+  {type:'ai', name:'Claude 3 Haiku', desc:'سريع وخفيف (مغلق المصدر).', link:'https://www.anthropic.com/claude', vendor:'Anthropic', src:'official', ts: Date.now()},
+  {type:'ai', name:'Gemini 1.5 Pro', desc:'من Google (مغلق المصدر) عبر Gemini API.', link:'https://ai.google.dev/gemini-api', vendor:'Google', src:'official', ts: Date.now()},
+  {type:'ai', name:'Gemini 1.5 Flash', desc:'نسخة أسرع وأرخص (مغلق المصدر).', link:'https://ai.google.dev/gemini-api', vendor:'Google', src:'official', ts: Date.now()},
+  {type:'ai', name:'Grok‑2', desc:'نموذج من xAI (مغلق المصدر).', link:'https://x.ai/', vendor:'xAI', src:'official', ts: Date.now()},
+  {type:'ai', name:'Cohere Command R+', desc:'نموذج قوي للاسترجاع والإجابة (مغلق المصدر).', link:'https://cohere.com/command', vendor:'Cohere', src:'official', ts: Date.now()},
+  {type:'ai', name:'Cohere Command R', desc:'نموذج فعّال مع استرجاع (مغلق المصدر).', link:'https://cohere.com/command', vendor:'Cohere', src:'official', ts: Date.now()},
+  {type:'ai', name:'Mistral Large', desc:'نموذج Mistral التجاري (مغلق المصدر).', link:'https://mistral.ai/', vendor:'Mistral AI', src:'official', ts: Date.now()},
+  {type:'ai', name:'Amazon Titan', desc:'نماذج Titan عبر AWS Bedrock (مغلقة المصدر).', link:'https://aws.amazon.com/bedrock/titan/', vendor:'AWS', src:'official', ts: Date.now()},
+  {type:'ai', name:'Azure OpenAI Service', desc:'استضافة نماذج OpenAI عبر Azure (مغلق المصدر).', link:'https://azure.microsoft.com/products/ai-services/openai-service', vendor:'Microsoft', src:'official', ts: Date.now()},
+  {type:'ai', name:'Perplexity Sonar', desc:'نماذج بحث وإجابة (مغلقة المصدر).', link:'https://www.perplexity.ai', vendor:'Perplexity', src:'official', ts: Date.now()},
+
+  // نماذج مفتوحة المصدر إضافية قوية
+  {type:'ai', name:'Yi 34B', desc:'نماذج من 01.AI مفتوحة المصدر.', link:'https://github.com/01-ai/Yi', vendor:'01.AI', src:'official', ts: Date.now()},
+  {type:'ai', name:'Vicuna‑13B', desc:'نماذج محادثة من LMSYS (مفتوحة المصدر).', link:'https://lmsys.org/blog/vicuna/', vendor:'LMSYS', src:'official', ts: Date.now()},
+  {type:'ai', name:'Zephyr‑7B', desc:'سلسلة Zephyr (HF) مفتوحة.', link:'https://huggingface.co/HuggingFaceH4/zephyr-7b-beta', vendor:'HuggingFaceH4', src:'official', ts: Date.now()},
+  {type:'ai', name:'OpenChat‑3.5', desc:'نموذج محادثة مفتوح.', link:'https://huggingface.co/openchat', vendor:'OpenChat', src:'community', ts: Date.now()},
+  {type:'ai', name:'DBRX', desc:'نموذج مفتوح من Databricks.', link:'https://www.databricks.com/blog/introducing-dbrx', vendor:'Databricks', src:'official', ts: Date.now()},
+
+  // أدوات ومنصات تطوير مدعومة بالذكاء الاصطناعي (تجارية/مغلقة)
+  {type:'ai', name:'Cursor', desc:'بيئة تطوير بقدرات ذكية للمبرمجين.', link:'https://www.cursor.com/', vendor:'Cursor', src:'official', ts: Date.now()},
+  {type:'ai', name:'Windsurf (Codeium)', desc:'IDE ذكي من Codeium.', link:'https://codeium.com/windsurf', vendor:'Codeium', src:'official', ts: Date.now()},
+  {type:'ai', name:'Cody (Sourcegraph)', desc:'مساعد برمجة من Sourcegraph.', link:'https://sourcegraph.com/cody', vendor:'Sourcegraph', src:'official', ts: Date.now()},
+  {type:'ai', name:'GitHub Copilot', desc:'مكمّل كود تجاري من GitHub.', link:'https://github.com/features/copilot', vendor:'GitHub', src:'official', ts: Date.now()},
+  {type:'ai', name:'Tabnine', desc:'إكمال ذكي تجاري.', link:'https://www.tabnine.com/', vendor:'Tabnine', src:'official', ts: Date.now()},
+  {type:'ai', name:'JetBrains AI', desc:'مساعد برمجة داخل منتجات JetBrains.', link:'https://www.jetbrains.com/ai/', vendor:'JetBrains', src:'official', ts: Date.now()},
+  {type:'ai', name:'LM Studio', desc:'تشغيل نماذج محليًا بواجهة رسومية.', link:'https://lmstudio.ai/', vendor:'LM Studio', src:'official', ts: Date.now()},
+  {type:'ai', name:'Jan', desc:'مشغل نماذج محلي متعدد المنصات.', link:'https://jan.ai', vendor:'Jan', src:'official', ts: Date.now()},
+
+  // أدوات صور/فيديو AI
+  {type:'ai', name:'AUTOMATIC1111 SD WebUI', desc:'واجهة ويب شهيرة لـ Stable Diffusion (مفتوحة).', link:'https://github.com/AUTOMATIC1111/stable-diffusion-webui', vendor:'community', src:'community', ts: Date.now()},
+  {type:'ai', name:'ComfyUI', desc:'منصة عقدية لتوليد الصور (مفتوحة).', link:'https://github.com/comfyanonymous/ComfyUI', vendor:'ComfyUI', src:'community', ts: Date.now()},
+  {type:'ai', name:'InvokeAI', desc:'أداة Stable Diffusion مفتوحة.', link:'https://github.com/invoke-ai/InvokeAI', vendor:'InvokeAI', src:'community', ts: Date.now()},
+
   // توزيعات وأنظمة (روابط رسمية مباشرة حيث أمكن)
   {type:'distros', name:'Ubuntu Desktop 24.04 LTS', desc:'توزيعة لينكس للمستخدمين، دعم طويل.', link:'https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso', vendor:'Canonical', dl:'direct'},
   {type:'distros', name:'Fedora Workstation 40', desc:'لينكس حديث للمطورين.', link:'https://download.fedoraproject.org/pub/fedora/linux/releases/40/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-40-1.14.iso', vendor:'Fedora', dl:'direct'},
