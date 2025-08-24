@@ -15,8 +15,8 @@ body { background-color: var(--bg); }
   /* Hacker theme tokens */
   --bg:#050a06;
   --surface:#08130b;
-  --text:#d7ffe3;
-  --muted:#7fbf99;
+  --text:#eafff2;
+  --muted:#b6e7c6;
   --primary:#00ff6a;
   --primary-600:#00e05f;
   --accent:#39ff14;
@@ -110,6 +110,11 @@ body::before{
 .section{padding:3rem 0}
 .section.alt{background:linear-gradient(180deg,var(--surface),transparent)}
 .section-header{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:1rem}
+/* stronger readability on hero text/cards */
+.hero h1{letter-spacing:.3px}
+.hero p{color: #d4ffe3}
+.card{backdrop-filter: blur(6px)}
+
 .section h2{margin:0 0 .75rem}
 /* larger base for readability */
 html{font-size:18px}
@@ -178,6 +183,10 @@ html{font-size:18px}
 
 /* Improve mobile paddings and reduce side empty spaces */
 @media (max-width: 480px){
+
+/* High Contrast toggle (hidden for now; can be shown later) */
+.hc body{--bg:#000;--surface:#000;--card:#000;--text:#fff;--muted:#d3d3d3;--border:#333;--accent:#0f0;--primary:#0f0}
+
   .container{width:100%}
   .section{padding:2rem 0}
   .card{padding:1rem; border-radius:.75rem}
